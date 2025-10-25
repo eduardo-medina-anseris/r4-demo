@@ -13,6 +13,10 @@ import {
   loadCSS,
 } from './aem.js';
 
+import {
+  decorateVariants,
+} from './theme-utils.js';
+
 /**
  * Builds hero block and prepends to main in a new section.
  * @param {Element} main The container element
@@ -82,6 +86,7 @@ export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
+  decorateVariants(main);
   decorateBlocks(main);
 }
 
