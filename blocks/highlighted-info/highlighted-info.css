@@ -1,0 +1,130 @@
+
+
+.block-cc02 {
+    background-color: #fff;
+    width: 100%;
+    display: inline-block;
+    padding: 35px 0;
+    text-align: center;
+}
+
+@media (width >= 1140px) {
+    .block-cc02 {
+        padding: 60px 0;
+    }
+}
+
+.block-cc02 .title-prin {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+@media (width >= 1024px) {
+    .block-cc02 .title-prin {
+        margin-bottom: 50px;
+    }
+}
+
+.block-cc02 .block-info-cc02 {
+    justify-content: center;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (width >= 1024px) {
+    .block-cc02 .block-info-cc02 {
+        margin-right: -35px;
+        margin-left: -35px;
+    }
+}
+
+@media (width >= 1024px) {
+    .block-cc02 .block-info-cc02.item-4 {
+        padding: 0 16.6667%;
+    }
+
+    .block-cc02 .block-info-cc02.item-4 > div {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.block-cc02 .block-info-cc02 .block-single {
+    display: flex;
+    text-align: center;
+    flex-flow: column wrap;
+    margin-bottom: 60px;
+    width: 100%;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+@media (width >= 1024px) {
+    .block-cc02 .block-info-cc02 .block-single {
+        padding: 0;
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+        margin-bottom: 40px;
+        position: relative;
+        padding-bottom: 47px;
+
+    }
+}
+
+.block-cc02 .block-info-cc02 .block-single img {
+    height: 50px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media (width >= 1024px) {
+    .block-cc02 .block-info-cc02 .block-single img {
+        margin-bottom: 25px;
+    }
+}
+
+.block-cc02 .block-info-cc02 .block-single .link-block {
+    margin-top: 15px;
+}
+
+@media (width >= 1024px) {
+    .block-cc02 .block-info-cc02 .block-single .link-block {
+        position: absolute;
+        display: block;
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        margin-top: 23px;
+        width: 100%;
+    }
+}
+
+.block-cc02 .block-info-cc02 .block-single p {
+    margin: 0;
+    width: 100%;
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    padding-bottom: 5px;
+    -webkit-line-clamp: 3;
+}
+
+@media (width <= 1024px) {
+    .block-cc02 .block-info-cc02 .block-single p {
+        line-height: 24px;
+        font-size: 20px;
+    }
+}
+
+.block-cc02 .button-red {
+    display: inline-block;
+}

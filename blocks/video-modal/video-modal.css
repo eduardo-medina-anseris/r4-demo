@@ -1,0 +1,116 @@
+.video-modal-wrapper{
+    padding: 60px 24px!important;
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+    min-width: 0;
+}
+
+.video-modal-wrapper .right-column {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.video-modal-wrapper .right-column p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.video-modal-wrapper .right-column p:first-child{
+    margin-top: 1em;
+}
+
+.video-modal-wrapper .right-column p:last-child{
+    margin-bottom: 1em;
+}
+
+.two-column-block {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+
+
+.left-column a {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.left-column picture::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255 255 255 / 50%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.left-column picture:hover::before {
+    background-color: var(--color-red);
+}
+
+.left-column picture::after {
+    content: '▶';
+    position: absolute;
+    top: 50%;
+    left:calc( 50% + 5px);
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color:var(--color-red);
+    pointer-events: none;
+    z-index: 2;
+    transition: color 0.3s ease;
+}
+
+.left-column picture:hover::after {
+    color: white;
+}
+
+
+.left-column a picture,
+.left-column a img {
+    margin: auto;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 540px;
+}
+
+@media screen  and (width >= 1024px) {
+    .left-column a picture,
+    .left-column a img {
+        object-fit: cover;
+        display: block;
+        width: 540px;
+        height: auto;
+}
+
+@media screen and (width >= 768px) {
+    .two-column-block {
+        flex-direction: row;
+    }
+
+    .reverse.two-column-block {
+        flex-direction: row-reverse;
+    }
+
+    .left-column {
+        order: 0;
+    }
+
+    .right-column {
+        order: 1;
+    }
+}
+}

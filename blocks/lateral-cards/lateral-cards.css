@@ -1,0 +1,48 @@
+/* ============================================= */
+
+/* Estilos Base (Mobile First) 📱                */
+
+/* ============================================= */
+
+/* El contenedor principal apila sus hijos (izquierdo y derecho) verticalmente */
+.block-gene-cc19 {
+    display: flex;
+    flex-direction: column; /* Apila los bloques uno sobre otro */
+    gap: 20px; /* Añade un espacio entre el bloque izquierdo y derecho */
+}
+
+.block-gene-cc19 img {
+    height: 48px;
+    width: 48px;
+}
+
+.block-gene-cc19 .block-right-cc19 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Cada elemento interno ocupa una línea completa en móvil para mejor legibilidad */
+.block-gene-cc19 .block-right-cc19 .block-single {
+    border-bottom: 1px solid #c8c8c8;;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+@media (width >= 768px) {
+    .block-gene-cc19 {
+        flex-direction: row;
+    }
+
+    .block-gene-cc19 .block-left-cc19 {
+        flex: 0 0 50%;
+    }
+
+    .block-gene-cc19 .block-right-cc19 {
+        flex: 0 0 50%;
+    }
+
+    .block-gene-cc19 .block-right-cc19 .block-single {
+        flex-basis: calc(50% - 10px);
+    }
+}

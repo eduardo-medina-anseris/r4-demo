@@ -1,0 +1,277 @@
+.block-banner-wrapper{
+    padding: 0 !important;
+}
+
+.block-banner-simple {
+    position: relative;
+}
+
+@media (width >= 1024px) {
+    .block-banner-simple {
+        padding: 40px 0;
+    }
+}
+
+.block-banner-simple .block-baner-info-img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    row-gap: 24px;
+}
+
+@media (width >= 1024px) {
+    .block-banner-simple .block-baner-info-img {
+        flex-wrap: nowrap;
+    }
+}
+
+.block-banner-simple .block-baner-info-img .with-out-href {
+    cursor: default;
+}
+
+.block-banner-simple .block-baner-info-img img {
+    width: 100%;
+}
+
+.block-banner-simple .block-baner-info-img.video {
+    cursor: default;
+}
+
+.block-banner-simple .block-baner-info-img .block-img {
+    order: 1;
+    position: relative;
+    height: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.block-banner-simple .block-baner-info-img.video .g {
+    cursor: pointer;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img .icon {
+    position: absolute;
+    padding: 10px;
+    font-size: 70px;
+    justify-content: center;
+    top: calc(50% - 45px);
+    left: calc(50% - 45px);
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img .icon::before {
+    color: #fff;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img .icon-video::before {
+    display: none;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img .icon-video .path1::before {
+    content: "\e92a";
+    opacity: 0.3;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img .icon-video .path2::before {
+    content: "\e92b";
+    margin-left: -1em;
+    color: #fff;
+    opacity: 1;
+    z-index: 1;
+    position: absolute;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img:hover .icon-video::before {
+    display: none;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img:hover .icon-video .path1::before {
+    content: "\e92a";
+    color: var(--color-primary-hover);
+    opacity: 1;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img:hover .icon-video .path2::before {
+    content: "\e92b";
+    margin-left: -1em;
+    color: #fff;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img:hover .icon-audio .path1::before {
+    content: "\e923";
+    color: var(--color-primary-hover);
+    opacity: 1;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img:hover .icon-audio .path2::before {
+    content: "\e924";
+    color: #fff;
+    margin-left: -1em;
+    opacity: 1;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img:hover .icon-audio .path3::before {
+    content: "\e926";
+    color: #fff;
+    margin-left: -1em;
+    opacity: 1;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img:hover .icon-audio .path4::before {
+    content: "\e927";
+    color: #fff;
+    margin-left: -1em;
+    opacity: 1;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img:hover .icon-audio .path5::before {
+    content: "\e928";
+    color: #fff;
+    margin-left: -1em;
+    opacity: 1;
+}
+
+.block-banner-simple .block-baner-info-img.video .block-img:hover .icon-audio .path6::before {
+    content: "\e929";
+    color: #fff;
+    margin-left: -1em;
+    opacity: 1;
+}
+
+@media (width <= 600px) {
+    .block-banner-simple .block-baner-info-img .block-img {
+        margin: 0 -12px;
+    }
+}
+
+@media (width >= 1024px) {
+    .block-banner-simple .block-baner-info-img .block-img {
+        width: 50%;
+        max-height: 530px;
+    }
+}
+
+.block-banner-simple .block-baner-info-img .block-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.block-banner-simple .block-baner-info-img .block-img.right img {
+    object-position: right;
+}
+
+.block-banner-simple .block-baner-info-img .block-img.left img {
+    object-position: left;
+}
+
+.block-banner-simple .block-baner-info-img .block-img.center img {
+    object-position: center;
+}
+
+
+@media (width >= 1024px) {
+    .block-banner-simple .block-baner-info-img .block-img img {
+        height: 420px;
+    }
+}
+
+.block-banner-simple .block-baner-info-img .block-info {
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+}
+
+@media (width >= 1024px) {
+    .block-banner-simple .block-baner-info-img .block-info {
+        min-height: 480px;
+    }
+}
+
+.block-banner-simple .block-baner-info-img .block-info > .block-info-inner {
+    padding: 0;
+    width: 100%;
+}
+
+@media (width >= 1024px) {
+    .block-banner-simple .block-baner-info-img .block-info > .block-info-inner {
+        order: 1;
+        padding: 40px 0;
+    }
+}
+
+@media (width >= 1176px) {
+    .block-banner-simple .block-baner-info-img .block-info > .block-info-inner {
+        padding: 0 24px 0 0;
+    }
+}
+
+@media (width >= 1024px) {
+    .block-banner-simple .block-baner-info-img .block-info > .block-info-inner .block-info-inner-inside {
+        max-width: 504px;
+    }
+}
+
+@media (width >= 1024px) {
+    .block-banner-simple .block-baner-info-img .block-info {
+        width: 50%;
+        order: 1;
+    }
+}
+
+.block-banner-simple .block-baner-info-img .block-info .title {
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    color: var(--color-logo-header);
+    -webkit-line-clamp: 5;
+}
+
+.block-banner-simple .block-baner-info-img .block-info .title .subtitle-exist {
+    display: block !important;
+}
+
+.block-banner-simple .block-baner-info-img .block-info .subtitle-banner {
+    margin-bottom: 30px;
+    color: var(--color-logo-header);
+    display: block;
+    -webkit-line-clamp: 4;
+}
+
+@media (width >= 1024px) {
+    .block-banner-simple .block-baner-info-img .block-info .subtitle-banner {
+        margin-bottom: 40px;
+    }
+}
+
+.block-banner-simple .block-baner-info-img .block-info .subtitle-banner a {
+    text-decoration: underline;
+}
+
+.block-banner-simple .block-baner-info-img .block-info a.button-red {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+@media (width >= 1024px) {
+    .block-banner-simple .block-baner-info-img .block-info a.button-red {
+        font-size: 16px;
+    }
+}
+
+@media (width >= 1024px) {
+    .block-banner-simple .block-baner-info-img.left {
+        flex-flow: row-reverse;
+    }
+}
+
+@media (width >= 1024px) {
+    .block-banner-simple .block-baner-info-img.left .block-info .block-info-inner {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

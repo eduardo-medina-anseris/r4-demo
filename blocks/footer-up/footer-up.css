@@ -1,0 +1,45 @@
+footer.footer-wrapper:has(.bg-red) {
+    background-color: var(--color-red);
+
+    section{
+        color: white; /* opcional */
+        text-align: center;
+    }
+}
+
+
+footer {
+  background-color: var(--light-color);
+  font-size: var(--body-font-size-xs);
+}
+
+footer .bg-red > div {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 45px 0;
+}
+
+@media (width <= 900px) {
+    footer .bg-red > div {
+        padding: 45px 24px;
+    }
+
+    .footer-up-wrapper  .footer-up{
+        padding: 0 24px;
+    }
+}
+
+.footer-up-wrapper {
+    background-color: #3b3b3b !important;
+}
+
+.footer-up-wrapper  .footer-up{
+    background-color: #3b3b3b !important;
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer .footer p {
+  margin: 0;
+}
