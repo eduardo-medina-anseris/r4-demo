@@ -409,7 +409,8 @@ h6 {
     line-height: 22.0px !important;
   }
 }
-.text-medium {
+.text-medium,
+body {
   font-family: exo2 !important;
   font-size: 16px !important;
   line-height: 22.0px !important;
