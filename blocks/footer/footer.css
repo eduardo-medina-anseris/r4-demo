@@ -91,7 +91,7 @@ footer .block-left .block-single {
 footer .block-left .block-single .title-column {
     font-size: 20px;
     font-weight: 600;
-    font-family: "Exo 2", Arial, Helvetica, sans-serif;
+    font-family: "Exo2", Arial, Helvetica, sans-serif;
     color: #fff;
     text-transform: uppercase;
     margin: 0;
@@ -111,7 +111,7 @@ footer .block-left .block-single .title-column.active::after {
 @media (width >= 1024px) {
     footer .block-left .block-single .title-column {
         font-weight: 700;
-        font-family: "Exo 2", Arial, Helvetica, sans-serif;
+        font-family: "Exo2", Arial, Helvetica, sans-serif;
         line-height: 32px;
         font-size: 24px;
         padding: 0;

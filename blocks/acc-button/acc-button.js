@@ -13,10 +13,17 @@ export default function decorate(a) {
         up.classList.add('acc-button');
         const variants = getVariants();
         const cmpVariant = up.dataset.variant;
-        if (cmpVariant) {
-          const variantProperties = variants[cmpVariant];
-          if (variantProperties && variantProperties.typography) {
-            up.classList.add(variantProperties.typography);
+        if (variants) {
+          if (cmpVariant) {
+            const variantProperties = variants[cmpVariant];
+            if (variantProperties && variantProperties.typography) {
+              up.classList.add(variantProperties.typography);
+            }
+          } else {
+            const defaultVariant = Object.values(variants).find(v => v.componentVariantDefault === "true");
+            if (defaultVariant) {
+              up.classList.add(defaultVariant.typography);
+            }
           }
         }
       }
