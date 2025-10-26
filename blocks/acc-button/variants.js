@@ -13,6 +13,7 @@ export default function getVariants() {
         "textColorActive": "",
         "rightIconPadding": "",
         "borderTopColor": "",
+        "componentVariantDefault": "true",
         "iconHover": "",
         "mobileWidth": "fit",
         "borderBottomColor": "",

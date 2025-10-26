@@ -56,7 +56,8 @@ italic {
     line-height: 138.0px;
   }
 }
-.text-h1-large {
+.text-h1-large,
+h1 {
   font-family: exo2;
   font-size: 48px;
   font-weight: 800;
@@ -144,7 +145,8 @@ italic {
     line-height: 106.0px;
   }
 }
-.text-h2-large {
+.text-h2-large,
+h2 {
   font-family: exo2;
   font-size: 36px;
   font-weight: 800;
@@ -223,7 +225,8 @@ italic {
     font-family: exo2;
   }
 }
-.text-h3-large {
+.text-h3-large,
+h3 {
   font-family: exo2;
 }
 @media (max-width: 1024px) {
@@ -275,16 +278,16 @@ italic {
     font-family: exo2;
   }
 }
-.text-h4-large {
+.h4 {
   font-family: exo2;
 }
 @media (max-width: 1024px) {
-  .text-h4-large--tablet {
+  .h4--tablet {
     font-family: exo2;
   }
 }
 @media (max-width: 768px) {
-  .text-h4-large--mobile {
+  .h4--mobile {
     font-family: exo2;
   }
 }
@@ -327,7 +330,9 @@ italic {
     font-family: exo2;
   }
 }
-.text-h5-large {
+.text-h5-large,
+h5,
+h6 {
   font-family: exo2;
 }
 @media (max-width: 1024px) {
@@ -570,7 +575,7 @@ a:not([class]):hover {
     color: var(--buttons-primary_bg);
   }
 }
-.primary .acc-button--link {
+.acc-button--link {
   box-sizing: border-box;
   width: fit-content;
   height: 100%;
@@ -592,7 +597,7 @@ a:not([class]):hover {
   padding-left: 16px;
   padding-right: 16px;
 }
-.primary .acc-button--link:hover {
+.acc-button--link:hover {
   background-color: var(--buttons-primary_bghover);
 }
 .secondary .acc-button--link {
