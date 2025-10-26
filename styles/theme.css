@@ -409,8 +409,7 @@ h6 {
     line-height: 22.0px;
   }
 }
-.text-medium,
-body {
+.text-medium {
   font-family: exo2;
   font-size: 16px;
   line-height: 22.0px;
@@ -453,6 +452,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 26.0px;
+  text-decoration: none;
 }
 @media (max-width: 1024px) {
   .text-large-bold--tablet {
@@ -460,6 +460,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 26.0px;
+    text-decoration: none;
   }
 }
 @media (max-width: 768px) {
@@ -468,6 +469,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 26.0px;
+    text-decoration: none;
   }
 }
 .text-large-underline {
