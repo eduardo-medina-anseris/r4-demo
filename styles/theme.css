@@ -35,546 +35,543 @@ italic {
 }
 /* Typography Styles */
 .text-h1-extralarge {
-  font-family: exo2;
-  font-size: 128px;
-  font-weight: 800;
-  line-height: 138.0px;
+  font-family: exo2 !important;
+  font-size: 128px !important;
+  font-weight: 800 !important;
+  line-height: 138.0px !important;
 }
 @media (max-width: 1024px) {
   .text-h1-extralarge--tablet {
-    font-family: exo2;
-    font-size: 128px;
-    font-weight: 800;
-    line-height: 138.0px;
+    font-family: exo2 !important;
+    font-size: 128px !important;
+    font-weight: 800 !important;
+    line-height: 138.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-h1-extralarge--mobile {
-    font-family: exo2;
-    font-size: 128px;
-    font-weight: 800;
-    line-height: 138.0px;
+    font-family: exo2 !important;
+    font-size: 128px !important;
+    font-weight: 800 !important;
+    line-height: 138.0px !important;
   }
 }
 .text-h1-large,
 h1 {
-  font-family: exo2;
-  font-size: 48px;
-  font-weight: 800;
-  line-height: 58.0px;
+  font-family: exo2 !important;
+  font-size: 48px !important;
+  font-weight: 800 !important;
+  line-height: 58.0px !important;
 }
 @media (max-width: 1024px) {
   .text-h1-large--tablet {
-    font-family: exo2;
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 58.0px;
+    font-family: exo2 !important;
+    font-size: 48px !important;
+    font-weight: 800 !important;
+    line-height: 58.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-h1-large--mobile {
-    font-family: exo2;
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 58.0px;
+    font-family: exo2 !important;
+    font-size: 48px !important;
+    font-weight: 800 !important;
+    line-height: 58.0px !important;
   }
 }
 .text-h1-medium {
-  font-family: exo2;
-  font-size: 32px;
-  font-weight: 800;
-  line-height: 42.0px;
+  font-family: exo2 !important;
+  font-size: 32px !important;
+  font-weight: 800 !important;
+  line-height: 42.0px !important;
 }
 @media (max-width: 1024px) {
   .text-h1-medium--tablet {
-    font-family: exo2;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 42.0px;
+    font-family: exo2 !important;
+    font-size: 32px !important;
+    font-weight: 800 !important;
+    line-height: 42.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-h1-medium--mobile {
-    font-family: exo2;
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 42.0px;
+    font-family: exo2 !important;
+    font-size: 32px !important;
+    font-weight: 800 !important;
+    line-height: 42.0px !important;
   }
 }
 .text-h1-small {
-  font-family: exo2;
-  font-size: 24px;
-  font-weight: 800;
-  line-height: 34.0px;
+  font-family: exo2 !important;
+  font-size: 24px !important;
+  font-weight: 800 !important;
+  line-height: 34.0px !important;
 }
 @media (max-width: 1024px) {
   .text-h1-small--tablet {
-    font-family: exo2;
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 34.0px;
+    font-family: exo2 !important;
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    line-height: 34.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-h1-small--mobile {
-    font-family: exo2;
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 34.0px;
+    font-family: exo2 !important;
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    line-height: 34.0px !important;
   }
 }
 .text-h2-extralarge {
-  font-family: exo2;
-  font-size: 96px;
-  font-weight: 800;
-  line-height: 106.0px;
+  font-family: exo2 !important;
+  font-size: 96px !important;
+  font-weight: 800 !important;
+  line-height: 106.0px !important;
 }
 @media (max-width: 1024px) {
   .text-h2-extralarge--tablet {
-    font-family: exo2;
-    font-size: 96px;
-    font-weight: 800;
-    line-height: 106.0px;
+    font-family: exo2 !important;
+    font-size: 96px !important;
+    font-weight: 800 !important;
+    line-height: 106.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-h2-extralarge--mobile {
-    font-family: exo2;
-    font-size: 96px;
-    font-weight: 800;
-    line-height: 106.0px;
+    font-family: exo2 !important;
+    font-size: 96px !important;
+    font-weight: 800 !important;
+    line-height: 106.0px !important;
   }
 }
 .text-h2-large,
 h2 {
-  font-family: exo2;
-  font-size: 36px;
-  font-weight: 800;
-  line-height: 46.0px;
+  font-family: exo2 !important;
+  font-size: 36px !important;
+  font-weight: 800 !important;
+  line-height: 46.0px !important;
 }
 @media (max-width: 1024px) {
   .text-h2-large--tablet {
-    font-family: exo2;
-    font-size: 36px;
-    font-weight: 800;
-    line-height: 46.0px;
+    font-family: exo2 !important;
+    font-size: 36px !important;
+    font-weight: 800 !important;
+    line-height: 46.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-h2-large--mobile {
-    font-family: exo2;
-    font-size: 36px;
-    font-weight: 800;
-    line-height: 46.0px;
+    font-family: exo2 !important;
+    font-size: 36px !important;
+    font-weight: 800 !important;
+    line-height: 46.0px !important;
   }
 }
 .text-h2-medium {
-  font-family: exo2;
-  font-size: 28px;
-  font-weight: 800;
-  line-height: 38.0px;
+  font-family: exo2 !important;
+  font-size: 28px !important;
+  font-weight: 800 !important;
+  line-height: 38.0px !important;
 }
 @media (max-width: 1024px) {
   .text-h2-medium--tablet {
-    font-family: exo2;
-    font-size: 28px;
-    font-weight: 800;
-    line-height: 38.0px;
+    font-family: exo2 !important;
+    font-size: 28px !important;
+    font-weight: 800 !important;
+    line-height: 38.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-h2-medium--mobile {
-    font-family: exo2;
-    font-size: 28px;
-    font-weight: 800;
-    line-height: 38.0px;
+    font-family: exo2 !important;
+    font-size: 28px !important;
+    font-weight: 800 !important;
+    line-height: 38.0px !important;
   }
 }
 .text-h2-small {
-  font-family: exo2;
-  font-size: 20px;
-  font-weight: 800;
-  line-height: 28.0px;
+  font-family: exo2 !important;
+  font-size: 20px !important;
+  font-weight: 800 !important;
+  line-height: 28.0px !important;
 }
 @media (max-width: 1024px) {
   .text-h2-small--tablet {
-    font-family: exo2;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 28.0px;
+    font-family: exo2 !important;
+    font-size: 20px !important;
+    font-weight: 800 !important;
+    line-height: 28.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-h2-small--mobile {
-    font-family: exo2;
-    font-size: 20px;
-    font-weight: 800;
-    line-height: 28.0px;
+    font-family: exo2 !important;
+    font-size: 20px !important;
+    font-weight: 800 !important;
+    line-height: 28.0px !important;
   }
 }
 .text-h3-extralarge {
-  font-family: exo2;
+  font-family: exo2 !important;
 }
 @media (max-width: 1024px) {
   .text-h3-extralarge--tablet {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 @media (max-width: 768px) {
   .text-h3-extralarge--mobile {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 .text-h3-large,
 h3 {
-  font-family: exo2;
+  font-family: exo2 !important;
 }
 @media (max-width: 1024px) {
   .text-h3-large--tablet {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 @media (max-width: 768px) {
   .text-h3-large--mobile {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 .text-h3-medium {
-  font-family: exo2;
+  font-family: exo2 !important;
 }
 @media (max-width: 1024px) {
   .text-h3-medium--tablet {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 @media (max-width: 768px) {
   .text-h3-medium--mobile {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 .text-h3-small {
-  font-family: exo2;
+  font-family: exo2 !important;
 }
 @media (max-width: 1024px) {
   .text-h3-small--tablet {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 @media (max-width: 768px) {
   .text-h3-small--mobile {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 .text-h4-extralarge {
-  font-family: exo2;
+  font-family: exo2 !important;
 }
 @media (max-width: 1024px) {
   .text-h4-extralarge--tablet {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 @media (max-width: 768px) {
   .text-h4-extralarge--mobile {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 .h4 {
-  font-family: exo2;
+  font-family: exo2 !important;
 }
 @media (max-width: 1024px) {
   .h4--tablet {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 @media (max-width: 768px) {
   .h4--mobile {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 .text-h4-medium {
-  font-family: exo2;
+  font-family: exo2 !important;
 }
 @media (max-width: 1024px) {
   .text-h4-medium--tablet {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 @media (max-width: 768px) {
   .text-h4-medium--mobile {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 .text-h4-small {
-  font-family: exo2;
+  font-family: exo2 !important;
 }
 @media (max-width: 1024px) {
   .text-h4-small--tablet {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 @media (max-width: 768px) {
   .text-h4-small--mobile {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 .text-h5-extralarge {
-  font-family: exo2;
+  font-family: exo2 !important;
 }
 @media (max-width: 1024px) {
   .text-h5-extralarge--tablet {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 @media (max-width: 768px) {
   .text-h5-extralarge--mobile {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 .text-h5-large,
 h5,
 h6 {
-  font-family: exo2;
+  font-family: exo2 !important;
 }
 @media (max-width: 1024px) {
   .text-h5-large--tablet {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 @media (max-width: 768px) {
   .text-h5-large--mobile {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 .text-h5-medium {
-  font-family: exo2;
+  font-family: exo2 !important;
 }
 @media (max-width: 1024px) {
   .text-h5-medium--tablet {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 @media (max-width: 768px) {
   .text-h5-medium--mobile {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 .text-h5-small {
-  font-family: exo2;
+  font-family: exo2 !important;
 }
 @media (max-width: 1024px) {
   .text-h5-small--tablet {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 @media (max-width: 768px) {
   .text-h5-small--mobile {
-    font-family: exo2;
+    font-family: exo2 !important;
   }
 }
 .text-extra-large {
-  font-family: exo2;
-  font-size: 20px;
-  line-height: 28.0px;
+  font-family: exo2 !important;
+  font-size: 20px !important;
+  line-height: 28.0px !important;
 }
 @media (max-width: 1024px) {
   .text-extra-large--tablet {
-    font-family: exo2;
-    font-size: 20px;
-    line-height: 28.0px;
+    font-family: exo2 !important;
+    font-size: 20px !important;
+    line-height: 28.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-extra-large--mobile {
-    font-family: exo2;
-    font-size: 20px;
-    line-height: 28.0px;
+    font-family: exo2 !important;
+    font-size: 20px !important;
+    line-height: 28.0px !important;
   }
 }
 .text-large {
-  font-family: exo2;
-  font-size: 18px;
-  line-height: 22.0px;
+  font-family: exo2 !important;
+  font-size: 18px !important;
+  line-height: 22.0px !important;
 }
 @media (max-width: 1024px) {
   .text-large--tablet {
-    font-family: exo2;
-    font-size: 18px;
-    line-height: 22.0px;
+    font-family: exo2 !important;
+    font-size: 18px !important;
+    line-height: 22.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-large--mobile {
-    font-family: exo2;
-    font-size: 18px;
-    line-height: 22.0px;
+    font-family: exo2 !important;
+    font-size: 18px !important;
+    line-height: 22.0px !important;
   }
 }
 .text-medium {
-  font-family: exo2;
-  font-size: 16px;
-  line-height: 22.0px;
+  font-family: exo2 !important;
+  font-size: 16px !important;
+  line-height: 22.0px !important;
 }
 @media (max-width: 1024px) {
   .text-medium--tablet {
-    font-family: exo2;
-    font-size: 16px;
-    line-height: 22.0px;
+    font-family: exo2 !important;
+    font-size: 16px !important;
+    line-height: 22.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-medium--mobile {
-    font-family: exo2;
-    font-size: 16px;
-    line-height: 22.0px;
+    font-family: exo2 !important;
+    font-size: 16px !important;
+    line-height: 22.0px !important;
   }
 }
 .text-small {
-  font-family: exo2;
-  font-size: 14px;
-  line-height: 20.0px;
+  font-family: exo2 !important;
+  font-size: 14px !important;
+  line-height: 20.0px !important;
 }
 @media (max-width: 1024px) {
   .text-small--tablet {
-    font-family: exo2;
-    font-size: 14px;
-    line-height: 20.0px;
+    font-family: exo2 !important;
+    font-size: 14px !important;
+    line-height: 20.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-small--mobile {
-    font-family: exo2;
-    font-size: 14px;
-    line-height: 20.0px;
+    font-family: exo2 !important;
+    font-size: 14px !important;
+    line-height: 20.0px !important;
   }
 }
 .text-large-bold {
-  font-family: exo2;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 26.0px;
-  text-decoration: none;
+  font-family: exo2 !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  line-height: 26.0px !important;
 }
 @media (max-width: 1024px) {
   .text-large-bold--tablet {
-    font-family: exo2;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 26.0px;
-    text-decoration: none;
+    font-family: exo2 !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 26.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-large-bold--mobile {
-    font-family: exo2;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 26.0px;
-    text-decoration: none;
+    font-family: exo2 !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 26.0px !important;
   }
 }
 .text-large-underline {
-  font-family: exo2;
-  font-size: 18px;
-  line-height: 26.0px;
-  text-decoration: underline;
+  font-family: exo2 !important;
+  font-size: 18px !important;
+  line-height: 26.0px !important;
+  text-decoration: underline !important;
 }
 @media (max-width: 1024px) {
   .text-large-underline--tablet {
-    font-family: exo2;
-    font-size: 18px;
-    line-height: 26.0px;
-    text-decoration: underline;
+    font-family: exo2 !important;
+    font-size: 18px !important;
+    line-height: 26.0px !important;
+    text-decoration: underline !important;
   }
 }
 @media (max-width: 768px) {
   .text-large-underline--mobile {
-    font-family: exo2;
-    font-size: 18px;
-    line-height: 26.0px;
-    text-decoration: underline;
+    font-family: exo2 !important;
+    font-size: 18px !important;
+    line-height: 26.0px !important;
+    text-decoration: underline !important;
   }
 }
 .text-medium-bold {
-  font-family: exo2;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 22.0px;
+  font-family: exo2 !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 22.0px !important;
 }
 @media (max-width: 1024px) {
   .text-medium-bold--tablet {
-    font-family: exo2;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22.0px;
+    font-family: exo2 !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 22.0px !important;
   }
 }
 @media (max-width: 768px) {
   .text-medium-bold--mobile {
-    font-family: exo2;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22.0px;
+    font-family: exo2 !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 22.0px !important;
   }
 }
 .text-medium-underline {
-  font-family: exo2;
-  font-size: 16px;
-  line-height: 22.0px;
-  text-decoration: underline;
+  font-family: exo2 !important;
+  font-size: 16px !important;
+  line-height: 22.0px !important;
+  text-decoration: underline !important;
 }
 @media (max-width: 1024px) {
   .text-medium-underline--tablet {
-    font-family: exo2;
-    font-size: 16px;
-    line-height: 22.0px;
-    text-decoration: underline;
+    font-family: exo2 !important;
+    font-size: 16px !important;
+    line-height: 22.0px !important;
+    text-decoration: underline !important;
   }
 }
 @media (max-width: 768px) {
   .text-medium-underline--mobile {
-    font-family: exo2;
-    font-size: 16px;
-    line-height: 22.0px;
-    text-decoration: underline;
+    font-family: exo2 !important;
+    font-size: 16px !important;
+    line-height: 22.0px !important;
+    text-decoration: underline !important;
   }
 }
 .text-links,
 a:not([class]) {
-  font-family: exo2;
-  text-decoration: underline;
+  font-family: exo2 !important;
+  text-decoration: underline !important;
   color: var(--buttons-primary_bg);
 }
 @media (max-width: 1024px) {
   .text-links--tablet {
-    font-family: exo2;
-    text-decoration: underline;
+    font-family: exo2 !important;
+    text-decoration: underline !important;
     color: var(--buttons-primary_bg);
   }
 }
 @media (max-width: 768px) {
   .text-links--mobile {
-    font-family: exo2;
-    text-decoration: underline;
+    font-family: exo2 !important;
+    text-decoration: underline !important;
     color: var(--buttons-primary_bg);
   }
 }
 .text-links-hover,
 a:not([class]):hover {
-  font-family: exo2;
-  text-decoration: underline;
+  font-family: exo2 !important;
+  text-decoration: underline !important;
   color: var(--buttons-primary_bg);
 }
 @media (max-width: 1024px) {
   .text-links-hover--tablet {
-    font-family: exo2;
-    text-decoration: underline;
+    font-family: exo2 !important;
+    text-decoration: underline !important;
     color: var(--buttons-primary_bg);
   }
 }
 @media (max-width: 768px) {
   .text-links-hover--mobile {
-    font-family: exo2;
-    text-decoration: underline;
+    font-family: exo2 !important;
+    text-decoration: underline !important;
     color: var(--buttons-primary_bg);
   }
 }
