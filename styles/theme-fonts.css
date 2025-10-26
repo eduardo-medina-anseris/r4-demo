@@ -1,0 +1,17 @@
+/* stylelint-disable */
+@font-face {
+  font-family: 'exo2';
+  src: url('../fonts/theme-fonts/Exo2-VariableFont_wght.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'exo2';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../fonts/theme-fonts/Exo2-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+
+
+/* stylelint-enable */

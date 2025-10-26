@@ -45,28 +45,28 @@
               "value": ""
             },
             {
-              "name": "orange",
-              "value": "orange"
+              "name": "primary",
+              "value": "primary"
             },
             {
-              "name": "purple",
-              "value": "purple"
+              "name": "secondary",
+              "value": "secondary"
             },
             {
-              "name": "black",
-              "value": "black"
+              "name": "text",
+              "value": "text"
             },
             {
-              "name": "white-outline",
-              "value": "white-outline"
+              "name": "primary-medium",
+              "value": "primary-medium"
             },
             {
-              "name": "white",
-              "value": "white"
+              "name": "secondary-medium",
+              "value": "secondary-medium"
             },
             {
-              "name": "outline",
-              "value": "outline"
+              "name": "text-medium",
+              "value": "text-medium"
             }
           ]
         }
