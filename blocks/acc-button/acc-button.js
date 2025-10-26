@@ -20,7 +20,7 @@ export default function decorate(a) {
               up.classList.add(variantProperties.typography);
             }
           } else {
-            const defaultVariant = Object.values(variants).find(v => v.componentVariantDefault === "true");
+            const defaultVariant = Object.values(variants).find((v) => v.componentVariantDefault === 'true');
             if (defaultVariant) {
               up.classList.add(defaultVariant.typography);
             }

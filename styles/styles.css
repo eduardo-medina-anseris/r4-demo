@@ -40,8 +40,6 @@
     --color-dark:#3B3B3B;
 
   /* fonts */
-  --body-font-family: 'open sans', roboto-fallback, sans-serif;
-  --heading-font-family: "Exo2", Arial, Helvetica, sans-serif;
 
   /* body sizes */
   --body-font-size-m: 16px;
@@ -143,10 +141,6 @@ a {
   text-decoration: none;
 }
 
-a:hover,
-a:focus {
-  text-decoration: inherit;
-}
 
 p,
 dl,
@@ -161,6 +155,12 @@ blockquote {
 em a{
     font-style: normal;
 }
+
+a:hover,
+a:focus {
+  text-decoration: inherit;
+}
+
 
 code,
 pre {
