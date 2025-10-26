@@ -452,6 +452,7 @@ h6 {
   font-size: 18px !important;
   font-weight: 700 !important;
   line-height: 26.0px !important;
+  text-decoration: none !important;
 }
 @media (max-width: 1024px) {
   .text-large-bold--tablet {
@@ -459,6 +460,7 @@ h6 {
     font-size: 18px !important;
     font-weight: 700 !important;
     line-height: 26.0px !important;
+    text-decoration: none !important;
   }
 }
 @media (max-width: 768px) {
@@ -467,6 +469,7 @@ h6 {
     font-size: 18px !important;
     font-weight: 700 !important;
     line-height: 26.0px !important;
+    text-decoration: none !important;
   }
 }
 .text-large-underline {
