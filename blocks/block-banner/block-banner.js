@@ -1,3 +1,7 @@
+import {
+  applyVariantAttributes,
+} from '../../scripts/theme-utils.js';
+
 /* eslint-disable */
 export default function decorate(block) {
   const data=extractKeyValuePairs(block)
@@ -30,6 +34,8 @@ function buildHero(title, pretitle, subtitle, link, picture) {
   newPretitle.classList.add('titulo-top-mayu')
   while (pretitle.firstChild) {
     newPretitle.appendChild(pretitle.firstChild);
+
+    applyVariantAttributes(newPretitle, pretitle)
   }
   title.classList.add('title-prin','subtitleExist');
 

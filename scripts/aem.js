@@ -413,6 +413,21 @@ async function decorateButtons(element) {
     }
   });
 }
+/**
+ * Decorates paragraphs containing a single link as buttons.
+ * @param {Element} element container element
+ */
+async function decorateTitles(element) {
+  const titleDecorator = await import(
+    `${window.hlx.codeBasePath}/blocks/acc-title/acc-title.js`
+  );
+
+  element.querySelectorAll('h1,h2,h3,h4,h5,h6').forEach(async (h) => {
+    if (titleDecorator.default) {
+      await titleDecorator.default(h);
+    }
+  });
+}
 
 /**
  * Add <img> for icon, prefixed with codeBasePath and optional prefix.
@@ -573,6 +588,7 @@ function decorateBlock(block) {
     if (section) section.classList.add(`${shortBlockName}-container`);
     // eslint-disable-next-line no-use-before-define
     decorateButtons(block);
+    decorateTitles(block);
   }
 }
 
@@ -669,6 +685,7 @@ export {
   decorateBlock,
   decorateBlocks,
   decorateButtons,
+  decorateTitles,
   decorateIcons,
   decorateSections,
   decorateTemplateAndTheme,

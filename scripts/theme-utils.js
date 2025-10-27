@@ -48,4 +48,14 @@ export function decorateVariants(main) {
   toRemove.forEach((el) => el.remove());
 }
 
+export function applyVariantAttributes(newElem, variantElem) {
+  if (!newElem || !variantElem) return;
+
+  newElem.classList.add(...variantElem.classList);
+
+  Object.entries(variantElem.dataset).forEach(([key, value]) => {
+    newElem.dataset[key] = value;
+  });
+}
+
 export default decorateVariants;
