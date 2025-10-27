@@ -35,28 +35,20 @@
               "value": ""
             },
             {
-              "name": "primary",
-              "value": "primary"
+              "name": "large",
+              "value": "large"
             },
             {
-              "name": "secondary",
-              "value": "secondary"
+              "name": "medium",
+              "value": "medium"
             },
             {
-              "name": "text",
-              "value": "text"
+              "name": "small",
+              "value": "small"
             },
             {
-              "name": "primary-medium",
-              "value": "primary-medium"
-            },
-            {
-              "name": "secondary-medium",
-              "value": "secondary-medium"
-            },
-            {
-              "name": "text-medium",
-              "value": "text-medium"
+              "name": "pretitle",
+              "value": "pretitle"
             }
           ]
         }
