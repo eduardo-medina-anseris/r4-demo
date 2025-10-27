@@ -18,6 +18,7 @@
   --buttons-primary_bgpressed: #c15363;
   --buttons-primary_disabled: #5a5a5a;
   --complementary-red: #752e3b;
+  --complementary-transparent: rgba(255, 255, 255, 0);
 }
 und {
   text-decoration: underline;
@@ -580,6 +581,50 @@ a:not([class]):hover {
     color: var(--buttons-primary_bg);
   }
 }
+.text-legal-text {
+  font-family: open_sans !important;
+  font-size: 14px !important;
+  line-height: 20.0px !important;
+}
+@media (max-width: 1024px) {
+  .text-legal-text--tablet {
+    font-family: open_sans !important;
+    font-size: 14px !important;
+    line-height: 20.0px !important;
+  }
+}
+@media (max-width: 768px) {
+  .text-legal-text--mobile {
+    font-family: open_sans !important;
+    font-size: 14px !important;
+    line-height: 20.0px !important;
+  }
+}
+.text-h1-pretitle {
+  font-family: open_sans !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+  line-height: 28.0px !important;
+  text-transform: uppercase;
+}
+@media (max-width: 1024px) {
+  .text-h1-pretitle--tablet {
+    font-family: open_sans !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 28.0px !important;
+    text-transform: uppercase;
+  }
+}
+@media (max-width: 768px) {
+  .text-h1-pretitle--mobile {
+    font-family: open_sans !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 28.0px !important;
+    text-transform: uppercase;
+  }
+}
 .acc-button--link {
   box-sizing: border-box;
   width: fit-content;
@@ -612,6 +657,7 @@ a:not([class]):hover {
   display: block;
   cursor: pointer;
   position: relative;
+  background-color: var(--complementary-transparent);
   color: var(--buttons-primary_bg);
   border-radius: 8px;
   border-style: solid;
@@ -644,6 +690,7 @@ a:not([class]):hover {
 }
 .secondary .acc-button--link:hover {
   color: var(--buttons-primary_bghover);
+  background-color: var(--complementary-transparent);
 }
 .text .acc-button--link {
   box-sizing: border-box;
@@ -652,6 +699,7 @@ a:not([class]):hover {
   display: block;
   cursor: pointer;
   position: relative;
+  background-color: var(--complementary-transparent);
   color: var(--buttons-primary_bg);
   border-style: solid;
   border-width: 0px
@@ -667,6 +715,7 @@ a:not([class]):hover {
 }
 .text .acc-button--link:hover {
   color: var(--buttons-primary_bghover);
+  background-color: var(--complementary-transparent);
 }
 .primary-medium .acc-button--link {
   box-sizing: border-box;
@@ -700,6 +749,7 @@ a:not([class]):hover {
   display: block;
   cursor: pointer;
   position: relative;
+  background-color: var(--complementary-transparent);
   color: var(--buttons-primary_bg);
   border-radius: 8px;
   border-style: solid;
@@ -732,6 +782,7 @@ a:not([class]):hover {
 }
 .secondary-medium .acc-button--link:hover {
   color: var(--buttons-primary_bghover);
+  background-color: var(--complementary-transparent);
 }
 .text-medium .acc-button--link {
   box-sizing: border-box;
@@ -740,6 +791,7 @@ a:not([class]):hover {
   display: block;
   cursor: pointer;
   position: relative;
+  background-color: var(--complementary-transparent);
   color: var(--buttons-primary_bg);
   border-style: solid;
   border-width: 0px
@@ -755,6 +807,7 @@ a:not([class]):hover {
 }
 .text-medium .acc-button--link:hover {
   color: var(--buttons-primary_bghover);
+  background-color: var(--complementary-transparent);
 }
 
 /* stylelint-enable */
