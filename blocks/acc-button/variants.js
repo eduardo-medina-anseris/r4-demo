@@ -2,6 +2,8 @@
 export default function getVariants() {
   return {
       "primary": {
+        "backgroundColorDisabled": "--buttons-primary_disabled",
+        "jcr:primaryType": "nt:unstructured",
         "mobileAlignment": "left",
         "borderTopHoverColor": "",
         "borderRightHoverSize": "",
@@ -53,11 +55,13 @@ export default function getVariants() {
         "sling:resourceType": "themes/components/elements/acc/button",
         "tabletAlignment": "left",
         "componentVariantDefault": "true",
-        "borderLeftSize": "",
-        "backgroundColorDisabled": "--buttons-primary_disabled",
-        "jcr:primaryType": "nt:unstructured"
+        "borderLeftSize": ""
       },
       "secondary": {
+        "borderTopColor": "--buttons-primary_bg",
+        "borderBottomSize": "1",
+        "borderTopHoverColor": "--buttons-primary_bghover",
+        "borderRadius": "8",
         "leftIconPadding": "",
         "icon": "",
         "textColorDisabled": "",
@@ -106,13 +110,13 @@ export default function getVariants() {
         "sling:resourceType": "themes/components/elements/acc/button",
         "borderTopHoverSize": "",
         "hideOnMobile": "false",
-        "hideOnDesktop": "false",
-        "borderTopColor": "--buttons-primary_bg",
-        "borderBottomSize": "1",
-        "borderTopHoverColor": "--buttons-primary_bghover",
-        "borderRadius": "8"
+        "hideOnDesktop": "false"
       },
       "text": {
+        "borderTopColor": "",
+        "borderBottomSize": "",
+        "borderTopHoverColor": "",
+        "borderRadius": "",
         "leftIconPadding": "",
         "icon": "",
         "textColorDisabled": "",
@@ -161,13 +165,13 @@ export default function getVariants() {
         "sling:resourceType": "themes/components/elements/acc/button",
         "borderTopHoverSize": "",
         "hideOnMobile": "false",
-        "hideOnDesktop": "false",
+        "hideOnDesktop": "false"
+      },
+      "primary-medium": {
         "borderTopColor": "",
         "borderBottomSize": "",
         "borderTopHoverColor": "",
-        "borderRadius": ""
-      },
-      "primary-medium": {
+        "borderRadius": "8",
         "leftIconPadding": "",
         "icon": "",
         "textColorDisabled": "",
@@ -216,13 +220,13 @@ export default function getVariants() {
         "sling:resourceType": "themes/components/elements/acc/button",
         "borderTopHoverSize": "",
         "hideOnMobile": "false",
-        "hideOnDesktop": "false",
-        "borderTopColor": "",
-        "borderBottomSize": "",
-        "borderTopHoverColor": "",
-        "borderRadius": "8"
+        "hideOnDesktop": "false"
       },
       "secondary-medium": {
+        "borderTopColor": "--buttons-primary_bg",
+        "borderBottomSize": "1",
+        "borderTopHoverColor": "--buttons-primary_bghover",
+        "borderRadius": "8",
         "leftIconPadding": "",
         "icon": "",
         "textColorDisabled": "",
@@ -271,13 +275,13 @@ export default function getVariants() {
         "sling:resourceType": "themes/components/elements/acc/button",
         "borderTopHoverSize": "",
         "hideOnMobile": "false",
-        "hideOnDesktop": "false",
-        "borderTopColor": "--buttons-primary_bg",
-        "borderBottomSize": "1",
-        "borderTopHoverColor": "--buttons-primary_bghover",
-        "borderRadius": "8"
+        "hideOnDesktop": "false"
       },
       "text-medium": {
+        "borderTopColor": "",
+        "borderBottomSize": "",
+        "borderTopHoverColor": "",
+        "borderRadius": "",
         "leftIconPadding": "",
         "icon": "",
         "textColorDisabled": "",
@@ -326,11 +330,7 @@ export default function getVariants() {
         "sling:resourceType": "themes/components/elements/acc/button",
         "borderTopHoverSize": "",
         "hideOnMobile": "false",
-        "hideOnDesktop": "false",
-        "borderTopColor": "",
-        "borderBottomSize": "",
-        "borderTopHoverColor": "",
-        "borderRadius": ""
+        "hideOnDesktop": "false"
       }
   };
 }

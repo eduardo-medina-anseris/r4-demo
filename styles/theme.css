@@ -19,6 +19,7 @@
   --buttons-primary_disabled: #5a5a5a;
   --complementary-red: #752e3b;
   --complementary-transparent: rgba(255, 255, 255, 0);
+  --background-bg-color-dark: #FFFFFF;
 }
 und {
   text-decoration: underline;
@@ -634,7 +635,7 @@ a:not([class]):hover {
   position: relative;
   background-color: var(--buttons-primary_bg);
   color: var(--neutral-bglight);
-  border-radius: 8px;
+  border-radius: 0px;
   border-style: solid;
   border-width: 0px
                 0px
