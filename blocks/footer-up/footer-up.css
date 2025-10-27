@@ -1,5 +1,5 @@
 footer.footer-wrapper:has(.bg-red) {
-    background-color: var(--color-red);
+    background-color: var(--complementary-red);
 
     section{
         color: white; /* opcional */

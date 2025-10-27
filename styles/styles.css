@@ -36,7 +36,6 @@
   --text-color: #3b3b3b;
   --link-color: #8c2f3f;
   --link-hover-color: #1d3ecf;
-    --color-red:#752e3b;
     --color-dark:#3B3B3B;
 
   /* fonts */
@@ -233,7 +232,7 @@ main .section.highlight {
 }
 
 main .section.bg-red{
-     background-color: var(--color-red);
+     background-color: var(--complementary-red);
      margin: 0;
      padding: 40px 0;
     color: white;
@@ -251,7 +250,7 @@ main .section.bg-black a.button.primary {
 }
 
 footer.footer-wrapper:has(.bg-red) {
-    background-color: var(--color-red);
+    background-color: var(--complementary-red);
     color: white;
 }
 
