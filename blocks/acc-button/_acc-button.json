@@ -71,6 +71,10 @@
             {
               "name": "text_caps",
               "value": "text_caps"
+            },
+            {
+              "name": "pink_campaign",
+              "value": "pink_campaign"
             }
           ]
         }
