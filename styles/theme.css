@@ -962,9 +962,9 @@ a:not([class]):hover {
   align-items: center;
   cursor: pointer;
   position: relative;
-  background-color: var(--prm-bglight);
+  background-color: var(--snd-bglight);
   color: var(--prm-border);
-  border-radius: 0px;
+  border-radius: 30px;
   border-style: solid;
   border-color: transparent;
   border: none;

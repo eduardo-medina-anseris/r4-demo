@@ -2,6 +2,9 @@
 export default function getVariants() {
   return {
       "primary": {
+        "buttonText": "Button",
+        "borderBottomColor": "",
+        "backgroundColorHover": "--buttons-primary_bghover",
         "textColorActive": "",
         "backgroundColorActive": "",
         "componentVariantTitle": "Primary",
@@ -56,12 +59,13 @@ export default function getVariants() {
         "itemsGap": "",
         "secondIconHover": "",
         "borderTopColor": "",
-        "jcr:lastModifiedBy": "",
-        "buttonText": "Button",
-        "borderBottomColor": "",
-        "backgroundColorHover": "--buttons-primary_bghover"
+        "jcr:lastModifiedBy": ""
       },
       "secondary": {
+        "backgroundColor": "--complementary-transparent",
+        "jcr:lastModifiedBy": "",
+        "typography": "text-large-bold",
+        "_charset_": "UTF-8",
         "borderTopSize": "1",
         "jcr:primaryType": "nt:unstructured",
         "textColor": "--buttons-primary_bg",
@@ -110,13 +114,13 @@ export default function getVariants() {
         "borderBottomColor": "--buttons-primary_bg",
         "hideOnTablet": "false",
         "tabletAlignment": "left",
-        "borderRightHoverColor": "--buttons-primary_bghover",
-        "backgroundColor": "--complementary-transparent",
-        "jcr:lastModifiedBy": "",
-        "typography": "text-large-bold",
-        "_charset_": "UTF-8"
+        "borderRightHoverColor": "--buttons-primary_bghover"
       },
       "text": {
+        "backgroundColor": "--complementary-transparent",
+        "jcr:lastModifiedBy": "",
+        "typography": "text-large-underline",
+        "_charset_": "UTF-8",
         "borderTopSize": "",
         "jcr:primaryType": "nt:unstructured",
         "textColor": "--buttons-primary_bg",
@@ -165,13 +169,13 @@ export default function getVariants() {
         "borderBottomColor": "",
         "hideOnTablet": "false",
         "tabletAlignment": "left",
-        "borderRightHoverColor": "",
-        "backgroundColor": "--complementary-transparent",
-        "jcr:lastModifiedBy": "",
-        "typography": "text-large-underline",
-        "_charset_": "UTF-8"
+        "borderRightHoverColor": ""
       },
       "primary-medium": {
+        "backgroundColor": "--buttons-primary_bg",
+        "jcr:lastModifiedBy": "",
+        "typography": "text-medium-bold",
+        "_charset_": "UTF-8",
         "borderTopSize": "",
         "jcr:primaryType": "nt:unstructured",
         "textColor": "--neutral-bglight",
@@ -220,13 +224,13 @@ export default function getVariants() {
         "borderBottomColor": "",
         "hideOnTablet": "false",
         "tabletAlignment": "left",
-        "borderRightHoverColor": "",
-        "backgroundColor": "--buttons-primary_bg",
-        "jcr:lastModifiedBy": "",
-        "typography": "text-medium-bold",
-        "_charset_": "UTF-8"
+        "borderRightHoverColor": ""
       },
       "secondary-medium": {
+        "backgroundColor": "--complementary-transparent",
+        "jcr:lastModifiedBy": "",
+        "typography": "text-medium-bold",
+        "_charset_": "UTF-8",
         "borderTopSize": "1",
         "jcr:primaryType": "nt:unstructured",
         "textColor": "--buttons-primary_bg",
@@ -275,13 +279,13 @@ export default function getVariants() {
         "borderBottomColor": "--buttons-primary_bg",
         "hideOnTablet": "false",
         "tabletAlignment": "left",
-        "borderRightHoverColor": "--buttons-primary_bghover",
-        "backgroundColor": "--complementary-transparent",
-        "jcr:lastModifiedBy": "",
-        "typography": "text-medium-bold",
-        "_charset_": "UTF-8"
+        "borderRightHoverColor": "--buttons-primary_bghover"
       },
       "text-medium": {
+        "backgroundColor": "--complementary-transparent",
+        "jcr:lastModifiedBy": "",
+        "typography": "text-medium-underline",
+        "_charset_": "UTF-8",
         "borderTopSize": "",
         "jcr:primaryType": "nt:unstructured",
         "textColor": "--buttons-primary_bg",
@@ -330,13 +334,15 @@ export default function getVariants() {
         "borderBottomColor": "",
         "hideOnTablet": "false",
         "tabletAlignment": "left",
-        "borderRightHoverColor": "",
-        "backgroundColor": "--complementary-transparent",
-        "jcr:lastModifiedBy": "",
-        "typography": "text-medium-underline",
-        "_charset_": "UTF-8"
+        "borderRightHoverColor": ""
       },
       "text_caps": {
+        "secondIconHover": "",
+        "rightIcon": "",
+        "mobileAlignment": "left",
+        "tabletWidth": "fit",
+        "sling:resourceType": "themes/components/elements/acc/button",
+        "paddingLeftRight": "",
         "hideOnTablet": "false",
         "iconActive": "",
         "typography": "text-large-bold",
@@ -387,15 +393,14 @@ export default function getVariants() {
         "itemsGap": "",
         "rightIconSize": "",
         "componentVariantTitle": "Text Caps",
-        "backgroundColorActive": "",
-        "secondIconHover": "",
-        "rightIcon": "",
-        "mobileAlignment": "left",
-        "tabletWidth": "fit",
-        "sling:resourceType": "themes/components/elements/acc/button",
-        "paddingLeftRight": ""
+        "backgroundColorActive": ""
       },
       "pink_campaign": {
+        "backgroundColorActive": "",
+        "rightIcon": "",
+        "textColorDisabled": "",
+        "textColorActive": "",
+        "jcr:lastModified": "",
         "backgroundColorDisabled": "",
         "_charset_": "UTF-8",
         "borderTopColor": "",
@@ -438,12 +443,7 @@ export default function getVariants() {
         "tabletWidth": "fit",
         "paddingLeftRight": "",
         "hideOnDesktop": "false",
-        "borderBottomHoverColor": "",
-        "backgroundColorActive": "",
-        "rightIcon": "",
-        "textColorDisabled": "",
-        "textColorActive": "",
-        "jcr:lastModified": ""
+        "borderBottomHoverColor": ""
       }
   };
 }
