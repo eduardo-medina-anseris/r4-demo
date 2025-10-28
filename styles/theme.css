@@ -21,7 +21,7 @@
   --complementary-transparent: rgba(255, 255, 255, 0);
   --background-bg-color-dark: #3b3b3b;
   --background-color-gray: #f5f5f5;
-  --background-general: #ffe0e7;
+  --background-general: #ffffff;
   --campaigns-breast_cancer_button: #ff6184;
 }
 und {
@@ -64,28 +64,25 @@ italic {
 }
 .text-h1-large,
 h1 {
-  font-family: lato_regular !important;
+  font-family: exo2 !important;
   font-size: 48px !important;
   font-weight: 800 !important;
   line-height: 58.0px !important;
-  color: var(--campaigns-breast_cancer_button);
 }
 @media (max-width: 1024px) {
   .text-h1-large--tablet {
-    font-family: lato_regular !important;
+    font-family: exo2 !important;
     font-size: 48px !important;
     font-weight: 800 !important;
     line-height: 58.0px !important;
-    color: var(--campaigns-breast_cancer_button);
   }
 }
 @media (max-width: 768px) {
   .text-h1-large--mobile {
-    font-family: lato_regular !important;
+    font-family: exo2 !important;
     font-size: 48px !important;
     font-weight: 800 !important;
     line-height: 58.0px !important;
-    color: var(--campaigns-breast_cancer_button);
   }
 }
 .text-h1-medium {
@@ -765,7 +762,7 @@ a:not([class]):hover {
   align-items: center;
   cursor: pointer;
   position: relative;
-  background-color: var(--campaigns-breast_cancer_button);
+  background-color: var(--buttons-primary_bg);
   color: var(--neutral-bglight);
   border-radius: 08px;
   border-style: solid;
