@@ -249,7 +249,7 @@ main .section.bg-black a.button.primary {
     background: none ;
 }
 
-footer.footer-wrapper:has(.bg-red) {
+footer.footer-wrapper:has(.bg-red), footer.footer-wrapper:has(.bg-red) a {
     background-color: var(--complementary-red);
     color: white;
 }
