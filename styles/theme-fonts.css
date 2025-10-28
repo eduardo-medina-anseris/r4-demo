@@ -6,6 +6,12 @@
 
 
 @font-face {
+  font-family: 'lato_regular';
+  src: url('../fonts/theme-fonts/Lato-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
   font-family: 'exo2';
   src: url('../fonts/theme-fonts/Exo2-VariableFont_wght.ttf') format('truetype');
 }
