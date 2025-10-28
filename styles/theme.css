@@ -743,9 +743,9 @@ a:not([class]):hover {
   align-items: center;
   cursor: pointer;
   position: relative;
-  background-color: var(--prm-bglight);
+  background-color: var(--buttons-primary_bg);
   color: var(--neutral-bglight);
-  border-radius: 0px;
+  border-radius: 8px;
   border-style: solid;
   border-color: transparent;
   border: none;
