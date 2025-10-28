@@ -49,6 +49,10 @@
             {
               "name": "pretitle",
               "value": "pretitle"
+            },
+            {
+              "name": "highlighted_dark",
+              "value": "highlighted_dark"
             }
           ]
         }

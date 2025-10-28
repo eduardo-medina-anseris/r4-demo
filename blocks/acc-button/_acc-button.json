@@ -67,6 +67,10 @@
             {
               "name": "text-medium",
               "value": "text-medium"
+            },
+            {
+              "name": "text_caps",
+              "value": "text_caps"
             }
           ]
         }

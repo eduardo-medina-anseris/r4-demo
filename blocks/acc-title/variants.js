@@ -2,56 +2,61 @@
 export default function getVariants() {
   return {
       "large": {
-        "heading": "h1",
-        "jcr:lastModified": "",
-        "jcr:primaryType": "nt:unstructured",
-        "sling:resourceType": "themes/components/elements/acc/title",
-        "jcr:lastModifiedBy": "",
         "typographyTablet": "",
-        "_charset_": "UTF-8",
-        "typographyMobile": "text-h2-large",
-        "componentVariantTitle": "Large",
+        "jcr:lastModifiedBy": "",
+        "sling:resourceType": "themes/components/elements/acc/title",
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:lastModified": "",
+        "heading": "h1",
+        "text": "This is a title",
         "typography": "text-h1-large",
-        "text": "This is a title"
+        "componentVariantTitle": "Large",
+        "typographyMobile": "text-h2-large",
+        "_charset_": "UTF-8"
       },
       "medium": {
-        "heading": "h2",
-        "jcr:lastModified": "",
-        "jcr:primaryType": "nt:unstructured",
-        "sling:resourceType": "themes/components/elements/acc/title",
-        "jcr:lastModifiedBy": "",
         "typographyTablet": "",
-        "_charset_": "UTF-8",
-        "typographyMobile": "text-h2-medium",
-        "componentVariantTitle": "Medium",
+        "jcr:lastModifiedBy": "",
+        "sling:resourceType": "themes/components/elements/acc/title",
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:lastModified": "",
+        "heading": "h2",
+        "text": "This is a title",
         "typography": "text-h1-medium",
-        "text": "This is a title"
+        "componentVariantTitle": "Medium",
+        "typographyMobile": "text-h2-medium",
+        "_charset_": "UTF-8"
       },
       "small": {
-        "heading": "h3",
-        "jcr:lastModified": "",
-        "jcr:primaryType": "nt:unstructured",
-        "sling:resourceType": "themes/components/elements/acc/title",
-        "jcr:lastModifiedBy": "",
         "typographyTablet": "",
-        "_charset_": "UTF-8",
-        "typographyMobile": "text-h2-small",
-        "componentVariantTitle": "Small",
+        "jcr:lastModifiedBy": "",
+        "sling:resourceType": "themes/components/elements/acc/title",
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:lastModified": "",
+        "heading": "h3",
+        "text": "This is a title",
         "typography": "text-h1-small",
-        "text": "This is a title"
+        "componentVariantTitle": "Small",
+        "typographyMobile": "text-h2-small",
+        "_charset_": "UTF-8"
       },
       "pretitle": {
-        "heading": "h1",
-        "jcr:lastModified": "",
-        "jcr:primaryType": "nt:unstructured",
-        "sling:resourceType": "themes/components/elements/acc/title",
-        "jcr:lastModifiedBy": "",
         "typographyTablet": "",
-        "_charset_": "UTF-8",
-        "typographyMobile": "",
-        "componentVariantTitle": "Pretitle",
+        "jcr:lastModifiedBy": "",
+        "sling:resourceType": "themes/components/elements/acc/title",
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:lastModified": "",
+        "heading": "h1",
+        "text": "pretitle",
         "typography": "text-h1-pretitle",
-        "text": "pretitle"
+        "componentVariantTitle": "Pretitle",
+        "typographyMobile": "",
+        "_charset_": "UTF-8"
+      },
+      "highlighted_dark": {
+        "componentVariantTitle": "Highlighted (dark)",
+        "sling:resourceType": "themes/components/elements/acc/title",
+        "jcr:primaryType": "nt:unstructured"
       }
   };
 }
