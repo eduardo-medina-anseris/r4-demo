@@ -1,4 +1,12 @@
 /* stylelint-disable */
+.acc-title {
+  margin: 0;
+}
+
+.acc-text {
+  margin: 0;
+}
+
 :root {
   --prm-bglight: #f6d1d8;
   --prm-bgdark: #c15363;
@@ -17,7 +25,7 @@
   --buttons-primary_bghover: #c15363;
   --buttons-primary_bgpressed: #c15363;
   --buttons-primary_disabled: #5a5a5a;
-  --complementary-red: #b10dc9;
+  --complementary-red: #752e3b;
   --complementary-transparent: rgba(255, 255, 255, 0);
   --background-bg-color-dark: #3b3b3b;
   --background-color-gray: #f5f5f5;
@@ -735,9 +743,9 @@ a:not([class]):hover {
   align-items: center;
   cursor: pointer;
   position: relative;
-  background-color: var(--prm-bglight);
+  background-color: var(--buttons-primary_bg);
   color: var(--neutral-bglight);
-  border-radius: 0px;
+  border-radius: 8px;
   border-style: solid;
   border-color: transparent;
   border: none;
@@ -1017,5 +1025,6 @@ a:not([class]):hover {
 .medium .dsedit .acc-separator {
   border: dotted 1px #d0d0d0;
 }
+
 
 /* stylelint-enable */
