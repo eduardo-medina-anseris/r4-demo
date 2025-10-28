@@ -2,9 +2,6 @@
 export default function getVariants() {
   return {
       "primary": {
-        "buttonText": "Button",
-        "borderBottomColor": "",
-        "backgroundColorHover": "--buttons-primary_bghover",
         "textColorActive": "",
         "backgroundColorActive": "",
         "componentVariantTitle": "Primary",
@@ -25,7 +22,7 @@ export default function getVariants() {
         "borderBottomHoverSize": "",
         "rightIconSize": "",
         "secondIcon": "",
-        "borderRadius": "8",
+        "borderRadius": "0",
         "borderTopHoverSize": "",
         "desktopAlignment": "left",
         "borderRightSize": "",
@@ -33,7 +30,7 @@ export default function getVariants() {
         "textColorHover": "",
         "borderTopSize": "",
         "borderBottomHoverColor": "",
-        "backgroundColor": "--buttons-primary_bg",
+        "backgroundColor": "--prm-bglight",
         "paddingBottomTop": "7",
         "desktopWidth": "fit",
         "leftIconSize": "",
@@ -59,13 +56,12 @@ export default function getVariants() {
         "itemsGap": "",
         "secondIconHover": "",
         "borderTopColor": "",
-        "jcr:lastModifiedBy": ""
+        "jcr:lastModifiedBy": "",
+        "buttonText": "Button",
+        "borderBottomColor": "",
+        "backgroundColorHover": "--buttons-primary_bghover"
       },
       "secondary": {
-        "backgroundColor": "--complementary-transparent",
-        "jcr:lastModifiedBy": "",
-        "typography": "text-large-bold",
-        "_charset_": "UTF-8",
         "borderTopSize": "1",
         "jcr:primaryType": "nt:unstructured",
         "textColor": "--buttons-primary_bg",
@@ -114,13 +110,13 @@ export default function getVariants() {
         "borderBottomColor": "--buttons-primary_bg",
         "hideOnTablet": "false",
         "tabletAlignment": "left",
-        "borderRightHoverColor": "--buttons-primary_bghover"
-      },
-      "text": {
+        "borderRightHoverColor": "--buttons-primary_bghover",
         "backgroundColor": "--complementary-transparent",
         "jcr:lastModifiedBy": "",
-        "typography": "text-large-underline",
-        "_charset_": "UTF-8",
+        "typography": "text-large-bold",
+        "_charset_": "UTF-8"
+      },
+      "text": {
         "borderTopSize": "",
         "jcr:primaryType": "nt:unstructured",
         "textColor": "--buttons-primary_bg",
@@ -169,13 +165,13 @@ export default function getVariants() {
         "borderBottomColor": "",
         "hideOnTablet": "false",
         "tabletAlignment": "left",
-        "borderRightHoverColor": ""
+        "borderRightHoverColor": "",
+        "backgroundColor": "--complementary-transparent",
+        "jcr:lastModifiedBy": "",
+        "typography": "text-large-underline",
+        "_charset_": "UTF-8"
       },
       "primary-medium": {
-        "backgroundColor": "--buttons-primary_bg",
-        "jcr:lastModifiedBy": "",
-        "typography": "text-medium-bold",
-        "_charset_": "UTF-8",
         "borderTopSize": "",
         "jcr:primaryType": "nt:unstructured",
         "textColor": "--neutral-bglight",
@@ -224,13 +220,13 @@ export default function getVariants() {
         "borderBottomColor": "",
         "hideOnTablet": "false",
         "tabletAlignment": "left",
-        "borderRightHoverColor": ""
-      },
-      "secondary-medium": {
-        "backgroundColor": "--complementary-transparent",
+        "borderRightHoverColor": "",
+        "backgroundColor": "--buttons-primary_bg",
         "jcr:lastModifiedBy": "",
         "typography": "text-medium-bold",
-        "_charset_": "UTF-8",
+        "_charset_": "UTF-8"
+      },
+      "secondary-medium": {
         "borderTopSize": "1",
         "jcr:primaryType": "nt:unstructured",
         "textColor": "--buttons-primary_bg",
@@ -279,13 +275,13 @@ export default function getVariants() {
         "borderBottomColor": "--buttons-primary_bg",
         "hideOnTablet": "false",
         "tabletAlignment": "left",
-        "borderRightHoverColor": "--buttons-primary_bghover"
-      },
-      "text-medium": {
+        "borderRightHoverColor": "--buttons-primary_bghover",
         "backgroundColor": "--complementary-transparent",
         "jcr:lastModifiedBy": "",
-        "typography": "text-medium-underline",
-        "_charset_": "UTF-8",
+        "typography": "text-medium-bold",
+        "_charset_": "UTF-8"
+      },
+      "text-medium": {
         "borderTopSize": "",
         "jcr:primaryType": "nt:unstructured",
         "textColor": "--buttons-primary_bg",
@@ -334,15 +330,13 @@ export default function getVariants() {
         "borderBottomColor": "",
         "hideOnTablet": "false",
         "tabletAlignment": "left",
-        "borderRightHoverColor": ""
+        "borderRightHoverColor": "",
+        "backgroundColor": "--complementary-transparent",
+        "jcr:lastModifiedBy": "",
+        "typography": "text-medium-underline",
+        "_charset_": "UTF-8"
       },
       "text_caps": {
-        "secondIconHover": "",
-        "rightIcon": "",
-        "mobileAlignment": "left",
-        "tabletWidth": "fit",
-        "sling:resourceType": "themes/components/elements/acc/button",
-        "paddingLeftRight": "",
         "hideOnTablet": "false",
         "iconActive": "",
         "typography": "text-large-bold",
@@ -393,14 +387,15 @@ export default function getVariants() {
         "itemsGap": "",
         "rightIconSize": "",
         "componentVariantTitle": "Text Caps",
-        "backgroundColorActive": ""
+        "backgroundColorActive": "",
+        "secondIconHover": "",
+        "rightIcon": "",
+        "mobileAlignment": "left",
+        "tabletWidth": "fit",
+        "sling:resourceType": "themes/components/elements/acc/button",
+        "paddingLeftRight": ""
       },
       "pink_campaign": {
-        "backgroundColorActive": "",
-        "rightIcon": "",
-        "textColorDisabled": "",
-        "textColorActive": "",
-        "jcr:lastModified": "",
         "backgroundColorDisabled": "",
         "_charset_": "UTF-8",
         "borderTopColor": "",
@@ -443,7 +438,12 @@ export default function getVariants() {
         "tabletWidth": "fit",
         "paddingLeftRight": "",
         "hideOnDesktop": "false",
-        "borderBottomHoverColor": ""
+        "borderBottomHoverColor": "",
+        "backgroundColorActive": "",
+        "rightIcon": "",
+        "textColorDisabled": "",
+        "textColorActive": "",
+        "jcr:lastModified": ""
       }
   };
 }

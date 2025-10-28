@@ -2,7 +2,6 @@
 export default function getVariants() {
   return {
       "large": {
-        "sling:resourceType": "themes/components/elements/acc/title",
         "jcr:lastModifiedBy": "",
         "typographyTablet": "",
         "_charset_": "UTF-8",
@@ -12,10 +11,10 @@ export default function getVariants() {
         "text": "This is a title",
         "heading": "h1",
         "jcr:lastModified": "",
-        "jcr:primaryType": "nt:unstructured"
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "themes/components/elements/acc/title"
       },
       "medium": {
-        "sling:resourceType": "themes/components/elements/acc/title",
         "jcr:lastModifiedBy": "",
         "typographyTablet": "",
         "_charset_": "UTF-8",
@@ -25,10 +24,10 @@ export default function getVariants() {
         "text": "This is a title",
         "heading": "h2",
         "jcr:lastModified": "",
-        "jcr:primaryType": "nt:unstructured"
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "themes/components/elements/acc/title"
       },
       "small": {
-        "sling:resourceType": "themes/components/elements/acc/title",
         "jcr:lastModifiedBy": "",
         "typographyTablet": "",
         "_charset_": "UTF-8",
@@ -38,10 +37,10 @@ export default function getVariants() {
         "text": "This is a title",
         "heading": "h3",
         "jcr:lastModified": "",
-        "jcr:primaryType": "nt:unstructured"
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "themes/components/elements/acc/title"
       },
       "pretitle": {
-        "sling:resourceType": "themes/components/elements/acc/title",
         "jcr:lastModifiedBy": "",
         "typographyTablet": "",
         "_charset_": "UTF-8",
@@ -51,7 +50,8 @@ export default function getVariants() {
         "text": "pretitle",
         "heading": "h1",
         "jcr:lastModified": "",
-        "jcr:primaryType": "nt:unstructured"
+        "jcr:primaryType": "nt:unstructured",
+        "sling:resourceType": "themes/components/elements/acc/title"
       },
       "highlighted_dark": {
         "jcr:primaryType": "nt:unstructured",
