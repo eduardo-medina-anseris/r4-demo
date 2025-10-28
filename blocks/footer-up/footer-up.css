@@ -31,11 +31,11 @@ footer .bg-red > div {
 }
 
 .footer-up-wrapper {
-    background-color: #3b3b3b !important;
+    background-color: var(--background-bg-color-dark) !important;
 }
 
 .footer-up-wrapper  .footer-up{
-    background-color: #3b3b3b !important;
+    background-color: var(--complementary-transparent) !important;
     max-width: 1200px;
     margin: auto;
 }

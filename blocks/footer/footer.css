@@ -2,7 +2,7 @@
 footer .cuerpo-mini-gris-clarito { color: #F7F7F7; }
 footer .footer-up { background-color: var(--color-bg); }
 .renta4-banco footer .cuerpo-mini-gris-clarito { color: #c8c8c8; }
-.renta4-banco footer .footer-up { background-color: #3B3B3B; }
+.renta4-banco footer .footer-up { background-color: var(--background-bg-color-dark); }
 
 .in-iframe .footer-xf { display: none; }
 
