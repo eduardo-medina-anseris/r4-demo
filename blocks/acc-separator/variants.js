@@ -1,39 +1,27 @@
 /* eslint-disable */
 export default function getVariants() {
   return {
-      "default": {
-        "jcr:primaryType": "nt:unstructured",
-        "separation": "40",
-        "sling:resourceType": "themes/components/elements/acc/separator",
+      "big": {
         "lineColor": "",
+        "componentVariantTitle": "Big",
+        "jcr:primaryType": "nt:unstructured",
         "_charset_": "UTF-8",
-        "componentVariantDefault": "true",
-        "jcr:lastModified": "",
+        "jcr:lastModifiedBy": "",
+        "sling:resourceType": "themes/components/elements/acc/separator",
         "lineHeight": "",
-        "jcr:lastModifiedBy": "",
-        "componentVariantTitle": "Default"
+        "separation": "120",
+        "jcr:lastModified": ""
       },
-      "gray_line": {
-        "sling:resourceType": "themes/components/elements/acc/separator",
-        "jcr:lastModifiedBy": "",
-        "_charset_": "UTF-8",
-        "jcr:primaryType": "nt:unstructured",
-        "componentVariantTitle": "Gray Line",
-        "lineColor": "--grey-grey_400",
-        "jcr:lastModified": "",
-        "separation": "20",
-        "lineHeight": "1"
-      },
-      "small": {
-        "sling:resourceType": "themes/components/elements/acc/separator",
-        "jcr:lastModifiedBy": "",
-        "_charset_": "UTF-8",
-        "jcr:primaryType": "nt:unstructured",
-        "componentVariantTitle": "Small",
+      "medium": {
         "lineColor": "",
-        "jcr:lastModified": "",
-        "separation": "20",
-        "lineHeight": ""
+        "componentVariantTitle": "Medium",
+        "jcr:primaryType": "nt:unstructured",
+        "_charset_": "UTF-8",
+        "jcr:lastModifiedBy": "",
+        "sling:resourceType": "themes/components/elements/acc/separator",
+        "lineHeight": "",
+        "separation": "60",
+        "jcr:lastModified": ""
       }
   };
 }
