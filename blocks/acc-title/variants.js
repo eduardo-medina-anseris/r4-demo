@@ -2,6 +2,8 @@
 export default function getVariants() {
   return {
       "large": {
+        "jcr:lastModified": "",
+        "heading": "h1",
         "text": "This is a title",
         "typography": "text-h1-large",
         "componentVariantTitle": "Large",
@@ -10,11 +12,11 @@ export default function getVariants() {
         "typographyTablet": "",
         "jcr:lastModifiedBy": "",
         "sling:resourceType": "themes/components/elements/acc/title",
-        "jcr:primaryType": "nt:unstructured",
-        "jcr:lastModified": "",
-        "heading": "h1"
+        "jcr:primaryType": "nt:unstructured"
       },
       "medium": {
+        "jcr:lastModified": "",
+        "heading": "h2",
         "text": "This is a title",
         "typography": "text-h1-medium",
         "componentVariantTitle": "Medium",
@@ -23,11 +25,11 @@ export default function getVariants() {
         "typographyTablet": "",
         "jcr:lastModifiedBy": "",
         "sling:resourceType": "themes/components/elements/acc/title",
-        "jcr:primaryType": "nt:unstructured",
-        "jcr:lastModified": "",
-        "heading": "h2"
+        "jcr:primaryType": "nt:unstructured"
       },
       "small": {
+        "jcr:lastModified": "",
+        "heading": "h3",
         "text": "This is a title",
         "typography": "text-h1-small",
         "componentVariantTitle": "Small",
@@ -36,11 +38,11 @@ export default function getVariants() {
         "typographyTablet": "",
         "jcr:lastModifiedBy": "",
         "sling:resourceType": "themes/components/elements/acc/title",
-        "jcr:primaryType": "nt:unstructured",
-        "jcr:lastModified": "",
-        "heading": "h3"
+        "jcr:primaryType": "nt:unstructured"
       },
       "pretitle": {
+        "jcr:lastModified": "",
+        "heading": "h1",
         "text": "pretitle",
         "typography": "text-h1-pretitle",
         "componentVariantTitle": "Pretitle",
@@ -49,14 +51,12 @@ export default function getVariants() {
         "typographyTablet": "",
         "jcr:lastModifiedBy": "",
         "sling:resourceType": "themes/components/elements/acc/title",
-        "jcr:primaryType": "nt:unstructured",
-        "jcr:lastModified": "",
-        "heading": "h1"
+        "jcr:primaryType": "nt:unstructured"
       },
       "highlighted_dark": {
-        "jcr:primaryType": "nt:unstructured",
         "componentVariantTitle": "Highlighted (dark)",
-        "sling:resourceType": "themes/components/elements/acc/title"
+        "sling:resourceType": "themes/components/elements/acc/title",
+        "jcr:primaryType": "nt:unstructured"
       }
   };
 }
