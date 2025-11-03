@@ -2,26 +2,26 @@
 export default function getVariants() {
   return {
       "big": {
-        "jcr:primaryType": "nt:unstructured",
-        "separation": "120",
-        "lineColor": "",
-        "jcr:lastModifiedBy": "",
         "componentVariantTitle": "Big",
-        "lineHeight": "",
-        "jcr:lastModified": "",
+        "jcr:primaryType": "nt:unstructured",
+        "_charset_": "UTF-8",
+        "jcr:lastModifiedBy": "",
         "sling:resourceType": "themes/components/elements/acc/separator",
-        "_charset_": "UTF-8"
+        "lineHeight": "",
+        "separation": "120",
+        "jcr:lastModified": "",
+        "lineColor": ""
       },
       "medium": {
-        "jcr:primaryType": "nt:unstructured",
-        "separation": "60",
-        "lineColor": "",
-        "jcr:lastModifiedBy": "",
         "componentVariantTitle": "Medium",
-        "lineHeight": "",
-        "jcr:lastModified": "",
+        "jcr:primaryType": "nt:unstructured",
+        "_charset_": "UTF-8",
+        "jcr:lastModifiedBy": "",
         "sling:resourceType": "themes/components/elements/acc/separator",
-        "_charset_": "UTF-8"
+        "lineHeight": "",
+        "separation": "60",
+        "jcr:lastModified": "",
+        "lineColor": ""
       }
   };
 }
