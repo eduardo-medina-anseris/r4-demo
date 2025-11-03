@@ -25,7 +25,7 @@
   --buttons-primary_bghover: #c15363;
   --buttons-primary_bgpressed: #c15363;
   --buttons-primary_disabled: #5a5a5a;
-  --complementary-red: #ff6184;
+  --complementary-red: #851a2e;
   --complementary-transparent: rgba(255, 255, 255, 0);
   --background-bg-color-dark: #3b3b3b;
   --background-color-gray: #f5f5f5;
@@ -923,7 +923,7 @@ a:not([class]):hover {
   align-items: center;
   cursor: pointer;
   position: relative;
-  background-color: var(--complementary-transparent);
+  background-color: var(--neutral-bgdark);
   color: var(--buttons-primary_bg);
   border-style: solid;
   border-color: transparent;
