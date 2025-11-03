@@ -2,6 +2,7 @@
 export default function getVariants() {
   return {
       "big": {
+        "lineColor": "",
         "componentVariantTitle": "Big",
         "jcr:primaryType": "nt:unstructured",
         "_charset_": "UTF-8",
@@ -9,10 +10,10 @@ export default function getVariants() {
         "sling:resourceType": "themes/components/elements/acc/separator",
         "lineHeight": "",
         "separation": "120",
-        "jcr:lastModified": "",
-        "lineColor": ""
+        "jcr:lastModified": ""
       },
       "medium": {
+        "lineColor": "",
         "componentVariantTitle": "Medium",
         "jcr:primaryType": "nt:unstructured",
         "_charset_": "UTF-8",
@@ -20,8 +21,7 @@ export default function getVariants() {
         "sling:resourceType": "themes/components/elements/acc/separator",
         "lineHeight": "",
         "separation": "60",
-        "jcr:lastModified": "",
-        "lineColor": ""
+        "jcr:lastModified": ""
       }
   };
 }
