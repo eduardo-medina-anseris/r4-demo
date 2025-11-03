@@ -1,4 +1,12 @@
 /* stylelint-disable */
+.acc-title {
+  margin: 0;
+}
+
+.acc-text {
+  margin: 0;
+}
+
 :root {
   --prm-bglight: #f6d1d8;
   --prm-bgdark: #c15363;
@@ -17,12 +25,11 @@
   --buttons-primary_bghover: #c15363;
   --buttons-primary_bgpressed: #c15363;
   --buttons-primary_disabled: #5a5a5a;
-  --complementary-red: #752e3b;
+  --complementary-red: #ff6184;
   --complementary-transparent: rgba(255, 255, 255, 0);
   --background-bg-color-dark: #3b3b3b;
   --background-color-gray: #f5f5f5;
-  --background-general: #ffe0e7;
-  --campaigns-breast_cancer_button: #ff6184;
+  --campaigns-breast_cancer_button: #ff96a7;
 }
 und {
   text-decoration: underline;
@@ -64,14 +71,14 @@ italic {
 }
 .text-h1-large,
 h1 {
-  font-family: lato_regular !important;
+  font-family: exo2 !important;
   font-size: 48px !important;
   font-weight: 800 !important;
   line-height: 58.0px !important;
 }
 @media (max-width: 1024px) {
   .text-h1-large--tablet {
-    font-family: lato_regular !important;
+    font-family: exo2 !important;
     font-size: 48px !important;
     font-weight: 800 !important;
     line-height: 58.0px !important;
@@ -79,7 +86,7 @@ h1 {
 }
 @media (max-width: 768px) {
   .text-h1-large--mobile {
-    font-family: lato_regular !important;
+    font-family: exo2 !important;
     font-size: 48px !important;
     font-weight: 800 !important;
     line-height: 58.0px !important;
@@ -153,14 +160,14 @@ h1 {
 }
 .text-h2-large,
 h2 {
-  font-family: lato_regular !important;
+  font-family: exo2 !important;
   font-size: 36px !important;
   font-weight: 800 !important;
   line-height: 46.0px !important;
 }
 @media (max-width: 1024px) {
   .text-h2-large--tablet {
-    font-family: lato_regular !important;
+    font-family: exo2 !important;
     font-size: 36px !important;
     font-weight: 800 !important;
     line-height: 46.0px !important;
@@ -168,7 +175,7 @@ h2 {
 }
 @media (max-width: 768px) {
   .text-h2-large--mobile {
-    font-family: lato_regular !important;
+    font-family: exo2 !important;
     font-size: 36px !important;
     font-weight: 800 !important;
     line-height: 46.0px !important;
@@ -729,31 +736,6 @@ a:not([class]):hover {
     color: var(--neutral-bglight);
   }
 }
-.text-footer-text {
-  font-family: open_sans !important;
-  font-size: 14px !important;
-  font-weight: 400 !important;
-  line-height: 20.0px !important;
-  color: var(--neutral-bglight);
-}
-@media (max-width: 1024px) {
-  .text-footer-text--tablet {
-    font-family: open_sans !important;
-    font-size: 14px !important;
-    font-weight: 400 !important;
-    line-height: 20.0px !important;
-    color: var(--neutral-bglight);
-  }
-}
-@media (max-width: 768px) {
-  .text-footer-text--mobile {
-    font-family: open_sans !important;
-    font-size: 14px !important;
-    font-weight: 400 !important;
-    line-height: 20.0px !important;
-    color: var(--neutral-bglight);
-  }
-}
 .acc-button--link {
   box-sizing: border-box;
   width: fit-content;
@@ -762,9 +744,9 @@ a:not([class]):hover {
   align-items: center;
   cursor: pointer;
   position: relative;
-  background-color: var(--campaigns-breast_cancer_button);
+  background-color: var(--buttons-primary_bg);
   color: var(--neutral-bglight);
-  border-radius: 0px;
+  border-radius: 8px;
   border-style: solid;
   border-color: transparent;
   border: none;
@@ -781,7 +763,7 @@ a:not([class]):hover {
   width: 10px;
 }
 .acc-button--link:hover {
-  background-color: var(--prm-bgdark);
+  background-color: var(--buttons-primary_bghover);
 }
 .secondary .acc-button--link {
   box-sizing: border-box;
@@ -866,14 +848,14 @@ a:not([class]):hover {
   align-items: center;
   cursor: pointer;
   position: relative;
-  background-color: var(--neutral-textdark);
+  background-color: var(--buttons-primary_bg);
   color: var(--neutral-bglight);
   border-radius: 8px;
   border-style: solid;
   border-color: transparent;
   border: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 12px;
   padding-right: 12px;
 }
@@ -1009,6 +991,9 @@ a:not([class]):hover {
 .highlighted_dark .acc-text {
   color: var(--neutral-bglight);
 }
+.footer_text .acc-text {
+  color: var(--neutral-bglight);
+}
 .big .acc-separator {
   border: none;
   background: transparent;
@@ -1041,5 +1026,6 @@ a:not([class]):hover {
 .medium .dsedit .acc-separator {
   border: dotted 1px #d0d0d0;
 }
+
 
 /* stylelint-enable */
