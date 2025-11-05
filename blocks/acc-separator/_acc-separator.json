@@ -35,16 +35,12 @@
               "value": ""
             },
             {
-              "name": "default",
-              "value": "default"
+              "name": "big",
+              "value": "big"
             },
             {
-              "name": "gray_line",
-              "value": "gray_line"
-            },
-            {
-              "name": "small",
-              "value": "small"
+              "name": "medium",
+              "value": "medium"
             }
           ]
         }
