@@ -32,15 +32,15 @@
           "options": [
             {
               "name": "default",
-              "value": ""
+              "value": "[variant-0]"
             },
             {
               "name": "big",
-              "value": "big"
+              "value": "[variant-big]"
             },
             {
               "name": "medium",
-              "value": "medium"
+              "value": "[variant-medium]"
             }
           ]
         }
