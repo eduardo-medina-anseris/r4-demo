@@ -22,12 +22,12 @@ function decorateUniversalEditor(heading) {
   const divContainers = heading.querySelectorAll(':scope > div');
   let title = '';
   let cmpVariant = '';
-  if (divContainers.length > 0) {
-    title = divContainers[0].innerText;
+  if (divContainers.length > 1) {
+    title = divContainers[1].innerText;
   }
 
-  if (divContainers.length > 1) {
-    cmpVariant = divContainers[1]?.innerText?.trim();
+  if (divContainers.length > 2) {
+    cmpVariant = divContainers[2]?.innerText?.trim();
   }
   const variants = getVariants();
   const variantProperties = variants[cmpVariant];

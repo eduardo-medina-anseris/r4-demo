@@ -1,3 +1,7 @@
+import {
+  decorateBlock,
+} from './aem.js';
+
 function isCssSize(value) {
   const regex = /^-?\d+(\.\d+)?[a-zA-Z%]+$/;
   return regex.test(value.trim());
@@ -51,6 +55,71 @@ export function decorateVariants(main) {
 
   // Remove all marker elements after traversal
   toRemove.forEach((el) => el.remove());
+}
+
+export function decorateAccBlocks(main) {
+  if (!main) return;
+
+  // TreeWalker para iterar solo nodos de texto
+  const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT);
+  const toProcess = [];
+
+  // Regex para detectar [acc-*]
+  const accRegex = /^\s*\[(acc-[^\]]+)\]\s*$/;
+
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+    const text = node.nodeValue.trim();
+    const match = text.match(accRegex);
+
+    if (match) {
+      const accClass = match[1].trim();
+      const parent = node.parentElement;
+
+      if (parent) toProcess.push({ parent, accClass });
+    }
+  }
+
+  // Procesar cada bloque encontrado
+  toProcess.forEach(({ parent, accClass }) => {
+    let blockParent = parent.closest(`[data-aue-model="${accClass}"], [data-block-name="${accClass}"]`);
+
+    if (!blockParent) {
+      blockParent = parent.parentElement;
+      if (blockParent.childElementCount === 1) {
+        blockParent = blockParent.parentElement;
+      }
+    }
+
+    if (!blockParent) return;
+
+    // Poner la clase en el div padre
+    if (!blockParent.classList.contains(accClass)) {
+      blockParent.classList.add(accClass);
+    }
+
+    // Transformar todos los <p> hijos en <div>
+    const children = Array.from(blockParent.children);
+
+    children.forEach((child) => {
+      const innerText = child.textContent;
+
+      // Crear un div interno
+      const innerDiv = document.createElement('div');
+      innerDiv.textContent = innerText;
+
+      // Reemplazar el p original por un div que lo envuelve
+      const wrapperDiv = document.createElement('div');
+      wrapperDiv.appendChild(innerDiv);
+
+      blockParent.replaceChild(wrapperDiv, child);
+    });
+
+    // Ejecutar decorateBlock sobre el div padre
+    if (typeof decorateBlock === 'function') {
+      decorateBlock(blockParent);
+    }
+  });
 }
 
 export function decorateSeparators(main) {
