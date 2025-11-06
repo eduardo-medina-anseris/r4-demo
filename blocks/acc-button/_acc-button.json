@@ -42,39 +42,39 @@
           "options": [
             {
               "name": "default",
-              "value": ""
+              "value": "[variant-0]"
             },
             {
               "name": "primary",
-              "value": "primary"
+              "value": "[variant-primary]"
             },
             {
               "name": "secondary",
-              "value": "secondary"
+              "value": "[variant-secondary]"
             },
             {
               "name": "text",
-              "value": "text"
+              "value": "[variant-text]"
             },
             {
               "name": "primary-medium",
-              "value": "primary-medium"
+              "value": "[variant-primary-medium]"
             },
             {
               "name": "secondary-medium",
-              "value": "secondary-medium"
+              "value": "[variant-secondary-medium]"
             },
             {
               "name": "text-medium",
-              "value": "text-medium"
+              "value": "[variant-text-medium]"
             },
             {
               "name": "text_caps",
-              "value": "text_caps"
+              "value": "[variant-text_caps]"
             },
             {
               "name": "pink_campaign",
-              "value": "pink_campaign"
+              "value": "[variant-pink_campaign]"
             }
           ]
         }

@@ -37,27 +37,27 @@
           "options": [
             {
               "name": "default",
-              "value": ""
+              "value": "[variant-0]"
             },
             {
               "name": "large",
-              "value": "large"
+              "value": "[variant-large]"
             },
             {
               "name": "medium",
-              "value": "medium"
+              "value": "[variant-medium]"
             },
             {
               "name": "small",
-              "value": "small"
+              "value": "[variant-small]"
             },
             {
               "name": "pretitle",
-              "value": "pretitle"
+              "value": "[variant-pretitle]"
             },
             {
               "name": "highlighted_dark",
-              "value": "highlighted_dark"
+              "value": "[variant-highlighted_dark]"
             }
           ]
         }
