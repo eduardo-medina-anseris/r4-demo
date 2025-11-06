@@ -16,7 +16,7 @@ import {
 
 import {
   decorateVariants,
-  decorateSeparators,
+  decorateInlineSeparators,
 } from './theme-utils.js';
 
 /**
@@ -91,7 +91,7 @@ export function decorateMain(main) {
   buildAutoBlocks(main);
   decorateSections(main);
   decorateVariants(main);
-  decorateSeparators(main);
+  decorateInlineSeparators(main);
   decorateBlocks(main);
 }
 

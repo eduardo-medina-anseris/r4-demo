@@ -175,7 +175,7 @@ export function decorateAccBlocks(main) {
   });
 }
 
-export function decorateSeparators(main) {
+export function decorateInlineSeparators(main) {
   if (!main) return;
 
   // Create a TreeWalker to efficiently iterate only text nodes
@@ -192,24 +192,23 @@ export function decorateSeparators(main) {
     if (match) {
       const variantOrValue = match[1].trim();
 
-      const parent = document.createElement('div');
-      parent.classList.add('acc-separator-wrapper');
-
       const block = document.createElement('div');
       block.classList.add('acc-separator');
+
+      const blockInnerElem = document.createElement('div');
+      blockInnerElem.classList.add('acc-separator__spacer');
 
       if (isCssSize(variantOrValue)) {
         block.style.height = variantOrValue;
       } else {
-        parent.classList.add(variantOrValue);
+        block.classList.add(variantOrValue);
       }
-
-      block.append(document.createElement('hr'));
-      parent.append(block);
+      blockInnerElem.append(document.createElement('hr'));
+      block.append(blockInnerElem);
 
       const existingParent = node.parentElement;
-      existingParent.before(parent);
-
+      existingParent.before(block);
+      debugger;
       if (existingParent) toRemove.push(existingParent);
     }
   }
