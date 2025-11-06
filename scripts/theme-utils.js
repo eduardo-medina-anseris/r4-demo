@@ -7,6 +7,24 @@ function isCssSize(value) {
   return regex.test(value.trim());
 }
 
+export function findVariant(divContainers) {
+  if (!divContainers || divContainers.length < 1) {
+    return null;
+  }
+
+  const lastIndex = divContainers.length - 1;
+  const lastDiv = divContainers[lastIndex];
+  const text = lastDiv?.innerText?.trim() || '';
+
+  const match = text.match(/\[variant-([^\]]+)\]/);
+
+  if (match) {
+    return { index: lastIndex, value: match[1] };
+  }
+
+  return null;
+}
+
 /**
  * Applies variant classes to elements based on following [[variant: ...]] markers.
  *
@@ -60,65 +78,100 @@ export function decorateVariants(main) {
 export function decorateAccBlocks(main) {
   if (!main) return;
 
-  // TreeWalker para iterar solo nodos de texto
-  const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT);
-  const toProcess = [];
-
-  // Regex para detectar [acc-*]
   const accRegex = /^\s*\[(acc-[^\]]+)\]\s*$/;
+
+  // TreeWalker para recorrer todos los nodos de texto
+  const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT);
+
+  const blocksToProcess = [];
 
   while (walker.nextNode()) {
     const node = walker.currentNode;
     const text = node.nodeValue.trim();
-    const match = text.match(accRegex);
 
+    const match = text.match(accRegex);
     if (match) {
       const accClass = match[1].trim();
-      const parent = node.parentElement;
-
-      if (parent) toProcess.push({ parent, accClass });
+      const parentEl = node.parentElement;
+      if (parentEl) {
+        const blockDiv = parentEl.closest(`.${accClass}`);
+        blocksToProcess.push({ node, accClass, blockDiv });
+      }
     }
   }
 
-  // Procesar cada bloque encontrado
-  toProcess.forEach(({ parent, accClass }) => {
-    let blockParent = parent.closest(`[data-aue-model="${accClass}"], [data-block-name="${accClass}"]`);
-
-    if (!blockParent) {
-      blockParent = parent.parentElement;
-      if (blockParent.childElementCount === 1) {
-        blockParent = blockParent.parentElement;
+  blocksToProcess.forEach(({ node, accClass, blockDiv }) => {
+    if (blockDiv) {
+      if (typeof decorateBlock === 'function') {
+        decorateBlock(blockDiv);
       }
+      return;
     }
 
-    if (!blockParent) return;
+    const p = node.parentElement;
+    let container = p ? p.parentElement : null;
 
-    // Poner la clase en el div padre
-    if (!blockParent.classList.contains(accClass)) {
-      blockParent.classList.add(accClass);
+    if (container && container.childElementCount === 1) {
+      container = container.parentElement;
     }
 
-    // Transformar todos los <p> hijos en <div>
-    const children = Array.from(blockParent.children);
+    if (!container) return;
 
-    children.forEach((child) => {
-      const innerText = child.textContent;
+    const children = Array.from(container.children);
+    let blockPs = [];
+    let currentAccClass = accClass;
 
-      // Crear un div interno
-      const innerDiv = document.createElement('div');
-      innerDiv.textContent = innerText;
+    children.forEach((child, idx) => {
+      const text = child.textContent.trim();
+      const match = text.match(accRegex);
 
-      // Reemplazar el p original por un div que lo envuelve
-      const wrapperDiv = document.createElement('div');
-      wrapperDiv.appendChild(innerDiv);
+      if (match) {
+        if (blockPs.length > 0) {
+          const newBlockDiv = document.createElement('div');
+          newBlockDiv.classList.add(currentAccClass);
 
-      blockParent.replaceChild(wrapperDiv, child);
+          blockPs.forEach((pEl) => {
+            const innerWrapper = document.createElement('div');
+            const innerDiv = document.createElement('div');
+            innerDiv.textContent = pEl.textContent;
+            innerWrapper.appendChild(innerDiv);
+            newBlockDiv.appendChild(innerWrapper);
+          });
+
+          container.insertBefore(newBlockDiv, blockPs[0]);
+          blockPs.forEach((pEl) => pEl.remove());
+
+          if (typeof decorateBlock === 'function') {
+            decorateBlock(newBlockDiv);
+          }
+        }
+
+        currentAccClass = match[1].trim();
+        blockPs = [child];
+      } else if (currentAccClass) {
+        blockPs.push(child);
+      }
+
+      if (idx === children.length - 1 && blockPs.length > 0) {
+        const newBlockDiv = document.createElement('div');
+        newBlockDiv.classList.add(currentAccClass);
+
+        blockPs.forEach((pEl) => {
+          const innerWrapper = document.createElement('div');
+          const innerDiv = document.createElement('div');
+          innerDiv.textContent = pEl.textContent;
+          innerWrapper.appendChild(innerDiv);
+          newBlockDiv.appendChild(innerWrapper);
+        });
+
+        container.insertBefore(newBlockDiv, blockPs[0]);
+        blockPs.forEach((pEl) => pEl.remove());
+
+        if (typeof decorateBlock === 'function') {
+          decorateBlock(newBlockDiv);
+        }
+      }
     });
-
-    // Ejecutar decorateBlock sobre el div padre
-    if (typeof decorateBlock === 'function') {
-      decorateBlock(blockParent);
-    }
   });
 }
 
