@@ -1,5 +1,9 @@
 import getVariants from './variants.js';
 
+import {
+  findVariant,
+} from '../../scripts/theme-utils.js';
+
 function assignTypographyClasses(heading, cmpVariant, variants) {
   heading.classList.add('acc-title__heading');
   if (variants) {
@@ -20,15 +24,21 @@ function assignTypographyClasses(heading, cmpVariant, variants) {
 
 function decorateUniversalEditor(heading) {
   const divContainers = heading.querySelectorAll(':scope > div');
+
+  const variant = findVariant(divContainers);
+
   let title = '';
   let cmpVariant = '';
-  if (divContainers.length > 1) {
+  if (divContainers.length > 1
+    && variant !== null
+    && variant.index !== 1) {
     title = divContainers[1].innerText;
   }
 
-  if (divContainers.length > 2) {
-    cmpVariant = divContainers[2]?.innerText?.trim();
+  if (variant !== null && variant.value !== '0') {
+    cmpVariant = variant.value;
   }
+
   const variants = getVariants();
   const variantProperties = variants[cmpVariant];
 
