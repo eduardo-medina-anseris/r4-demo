@@ -208,7 +208,6 @@ export function decorateInlineSeparators(main) {
 
       const existingParent = node.parentElement;
       existingParent.before(block);
-      debugger;
       if (existingParent) toRemove.push(existingParent);
     }
   }
