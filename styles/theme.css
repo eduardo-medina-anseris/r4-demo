@@ -1009,14 +1009,14 @@ a:not([class]):hover {
 .highlighted_dark .acc-text {
   color: var(--neutral-bglight);
 }
-.big .acc-separator {
+.big .acc-separator__spacer {
   border: none;
   background: transparent;
   display: flex;
   align-items: center;
   height: 120px;
 }
-.big .acc-separator > hr {
+.big .acc-separator__spacer > hr {
   flex: 1;
   border: none;
   background: transparent;
@@ -1025,14 +1025,14 @@ a:not([class]):hover {
 .big .dsedit .acc-separator {
   border: dotted 1px #d0d0d0;
 }
-.medium .acc-separator {
+.medium .acc-separator__spacer {
   border: none;
   background: transparent;
   display: flex;
   align-items: center;
   height: 60px;
 }
-.medium .acc-separator > hr {
+.medium .acc-separator__spacer > hr {
   flex: 1;
   border: none;
   background: transparent;
